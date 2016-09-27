@@ -37,6 +37,12 @@ public class Assets implements Disposable {
         return manager.get(path, type);
     }
 
+    public void unload(String path) {
+        if(manager.isLoaded(path)) {
+            manager.unload(path);
+        }
+    }
+
     public Scene loadScene(String scenePath, SceneLoader.SceneParameter param) {
         if(lastScene != null) {
             //manager.unload(lastScene);

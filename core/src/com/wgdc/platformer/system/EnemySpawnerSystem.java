@@ -12,10 +12,12 @@ import com.kotcrab.vis.runtime.system.VisIDManager;
 import com.kotcrab.vis.runtime.system.physics.PhysicsSystem;
 import com.kotcrab.vis.runtime.util.AfterSceneInit;
 import com.wgdc.platformer.component.*;
+import com.wgdc.platformer.manager.GameManager;
 
 public class EnemySpawnerSystem extends BaseSystem implements AfterSceneInit {
 
     private VisIDManager idManager;
+    private GameManager gameManager;
     private Array<Vector2> spawnPoints;
     private int ticksSinceLastSpawn = 0;
 
@@ -48,7 +50,7 @@ public class EnemySpawnerSystem extends BaseSystem implements AfterSceneInit {
 
     @Override
     protected void processSystem() {
-        if(MathUtils.random(50) == 1 && ticksSinceLastSpawn >= 120) {
+        if(MathUtils.random(50) == 1 && ticksSinceLastSpawn >= 180 && gameManager.getState() == GameManager.State.RUNNING) {
             Vector2 spawnLocation = spawnPoints.random();
             Body body = getNewBody(spawnLocation);
             VisSpriteAnimation animation = new VisSpriteAnimation(robotAnimation);
@@ -60,6 +62,7 @@ public class EnemySpawnerSystem extends BaseSystem implements AfterSceneInit {
                     .add(new VisSprite(robotSprite))
                     .add(new VisSpriteAnimation())
                     .add(robotAssetRef)
+                    .add(new Tint())
                     .add(new Origin(-3.75f, -2.75f))
                     .add(new Facing(Facing.Direction.RIGHT))
                     .add(new AutoDirection())

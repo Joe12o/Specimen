@@ -68,11 +68,6 @@ public class BulletSystem extends EntityProcessingSystem {
     }
 
     @Override
-    public void removed(Entity e) {
-        physWorld.destroyBody(physicsCm.get(e).body);
-    }
-
-    @Override
     protected void process(Entity e) {
         Transform t = transformCm.get(e);
 

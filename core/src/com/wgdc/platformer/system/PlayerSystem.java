@@ -82,10 +82,10 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
     @Override
     protected void processSystem() {
         if(health.getCurrent() <= 0) {
-            gameManager.state = GameManager.State.GAME_OVER;
+            gameManager.setState(GameManager.State.GAME_OVER);
         }
 
-        if(gameManager.state == GameManager.State.RUNNING) {
+        if(gameManager.getState() == GameManager.State.RUNNING) {
             if(Gdx.input.isKeyPressed(Input.Keys.A)) {
                 if(body.body.getLinearVelocity().x > -WALK_SPEED) {
                     body.body.applyLinearImpulse(-1000f, 0f, 0f, 0f, true);

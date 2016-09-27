@@ -17,11 +17,13 @@ import com.wgdc.platformer.ai.PathMap;
 import com.wgdc.platformer.ai.fsm.ShooterAgent;
 import com.wgdc.platformer.component.ShooterAi;
 import com.wgdc.platformer.component.ShooterFSM;
+import com.wgdc.platformer.manager.GameManager;
 
 public class ShooterAiSystem extends EntityProcessingSystem implements AfterSceneInit {
 
     private ComponentMapper<ShooterFSM> shooterFSMCm;
     private CameraManager camManager;
+    private GameManager gameManager;
 
     private VisIDManager idManager;
     private AStarPathfinder pathFinder;
@@ -72,8 +74,10 @@ public class ShooterAiSystem extends EntityProcessingSystem implements AfterScen
 
     @Override
     protected void process(Entity e) {
-        ShooterFSM shooter = shooterFSMCm.get(e);
-        shooter.agent.update();
-        pathFinder.map.render();
+        if(gameManager.getState() == GameManager.State.RUNNING) {
+            ShooterFSM shooter = shooterFSMCm.get(e);
+            shooter.agent.update();
+            pathFinder.map.render();
+        }
     }
 }

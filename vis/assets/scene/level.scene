@@ -38,9 +38,17 @@
       "visible": true,
       "cordsSystem": "WORLD",
       "@class": "EditorLayer"
+    },
+    {
+      "name": "GameOver",
+      "id": 3,
+      "locked": false,
+      "visible": true,
+      "cordsSystem": "WORLD",
+      "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 0,
+  "activeLayerId": 3,
   "groupIds": [],
   "schemes": [
     {
@@ -2746,6 +2754,148 @@
             },
             {
               "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 41.967007,
+          "y": 40.733288,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 20.800001,
+          "originY": 2.6000001,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.65882355,
+            "g": 0.1764706,
+            "b": 0.18431373,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "fontSize": 72,
+            "relativePath": "font/Lato-Regular.ttf",
+            "@class": "TtfFontAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "pixelsPerUnits": 10.0,
+          "scale": 0.1,
+          "@class": "PixelsPerUnit"
+        },
+        {
+          "text": "GAME OVER",
+          "autoSetOriginToCenter": true,
+          "isUsesDistanceField": false,
+          "@class": "ProtoVisText"
+        },
+        {
+          "layerId": 3,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "0c52d905-83f6-4741-8caa-9e34163f5398",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "gameOver",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "PixelsPerUnit",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 51.1244,
+          "y": 35.4246,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 12.5,
+          "originY": 1.2,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "fontSize": 32,
+            "relativePath": "font/Lato-Regular.ttf",
+            "@class": "TtfFontAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "pixelsPerUnits": 10.0,
+          "scale": 0.1,
+          "@class": "PixelsPerUnit"
+        },
+        {
+          "text": "Click to continue...",
+          "autoSetOriginToCenter": true,
+          "isUsesDistanceField": false,
+          "@class": "ProtoVisText"
+        },
+        {
+          "layerId": 3,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "fcea185f-09b8-4634-a023-86ff11155952",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "gameOverSubtext",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "PixelsPerUnit",
               "@class": "Class"
             }
           ],
