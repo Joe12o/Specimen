@@ -13,5 +13,4 @@ public class Facing extends Component {
         this.direction = direction;
         this.defaultDir = direction;
     }
-
 }

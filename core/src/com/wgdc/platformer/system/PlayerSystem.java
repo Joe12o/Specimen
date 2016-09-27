@@ -68,7 +68,9 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
 
         for(Fixture f : body.body.getFixtureList()) {
             Filter filter = f.getFilterData();
-            filter.groupIndex = -1;
+            filter.categoryBits = 0x0002; // PLAYER
+            filter.maskBits = 0x0001 | 0x0008; // GROUND | ENEMY_BULLET
+            //filter.groupIndex = -1;
             f.setFilterData(filter);
         }
 
@@ -79,7 +81,7 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
 
     @Override
     protected void processSystem() {
-        if(health.current <= 0) {
+        if(health.getCurrent() <= 0) {
             gameManager.state = GameManager.State.GAME_OVER;
         }
 
@@ -115,7 +117,7 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
                         .add(new Layer(1))
                         .add(new Transform(transform.getX() + 6.2f, transform.getY() + 10f, 0.15f, 0.15f, 0f))
                         .add(bulletSprite)
-                        .add(new Bullet(velocity.x, velocity.y))
+                        .add(new Bullet(velocity.x, velocity.y, 5, true))
                         .add(new Light(8, Color.RED, 10f, 0f, 0f))
                         .add(new Origin(-1.1f, -1.15f))
                         .add(new Lifetime(3))
@@ -128,7 +130,7 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
             }
         }
 
-        if(Math.abs(body.body.getLinearVelocity().x) < 0.1f && !jumpState.jumping) {
+        if(Math.abs(body.body.getLinearVelocity().x) < 0.1f && !jumpState.jumping && animState.getState() != AnimationState.State.HURT) {
             animState.setState(AnimationState.State.IDLE);
         }
     }

@@ -40,7 +40,7 @@
       "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 2,
+  "activeLayerId": 0,
   "groupIds": [],
   "schemes": [
     {
@@ -2415,6 +2415,341 @@
           "maskBits": -1,
           "categoryBits": 1,
           "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 74.9339,
+          "y": -26.065,
+          "scaleX": 0.3,
+          "scaleY": 0.3,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 8.95,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "regionName": "idle",
+            "relativePath": "atlas/robot.atlas",
+            "@class": "AtlasRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 17.9,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "playMode": "LOOP",
+          "frameDuration": 0.1,
+          "playing": true,
+          "animationName": "idle",
+          "@class": "com.kotcrab.vis.runtime.component.VisSpriteAnimation"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "35d56bb9-1e21-4f28-a556-946871934d39",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "tempRobot",
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 11.944401,
+          "y": 6.356847,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "@class": "Point"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "9557968d-1c67-463d-837b-2c594516f40d",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "spawnpoint",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "Renderable",
+              "@class": "Class"
+            },
+            {
+              "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 31.229284,
+          "y": 21.927624,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "@class": "Point"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "697be22b-e122-44ae-be95-bbf17e5a6502",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "spawnpoint",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "Renderable",
+              "@class": "Class"
+            },
+            {
+              "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 117.08278,
+          "y": 6.3568635,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "@class": "Point"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "a09d9b81-2cdf-4809-81a3-9caee42cf446",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "spawnpoint",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "Renderable",
+              "@class": "Class"
+            },
+            {
+              "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 80.51292,
+          "y": 21.641924,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "@class": "Point"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "a3fa28cb-e477-4b22-8e54-3c40ee2d581c",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "spawnpoint",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "Renderable",
+              "@class": "Class"
+            },
+            {
+              "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 57.085354,
+          "y": 30.784391,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "@class": "Point"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "344515d9-10e0-4fba-aa8a-1d42847ca6de",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "spawnpoint",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "Renderable",
+              "@class": "Class"
+            },
+            {
+              "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 59.656666,
+          "y": 6.2140102,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "@class": "Point"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "cb38dcd3-fc7c-4f01-8676-aab41e40794a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "spawnpoint",
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "Renderable",
+              "@class": "Class"
+            },
+            {
+              "@content": "Layer",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
         }
       ],
       "@class": "EntityScheme"

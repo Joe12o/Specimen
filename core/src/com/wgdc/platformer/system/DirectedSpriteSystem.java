@@ -24,14 +24,16 @@ public class DirectedSpriteSystem extends EntityProcessingSystem {
     protected void process(Entity e) {
         VisSprite sprite = spriteCm.get(e);
         Facing facing = facingCm.get(e);
-        PhysicsBody physicsBody = physicsCm.get(e);
         AutoDirection autoDir = autoDirCm.get(e);
 
-        if(autoDir != null && physicsBody != null) {
-            if(physicsBody.body.getLinearVelocity().x > 0f) {
-                facing.direction = Facing.Direction.RIGHT;
-            } else if(physicsBody.body.getLinearVelocity().x < 0f) {
-                facing.direction = Facing.Direction.LEFT;
+        if(autoDir != null) {
+            PhysicsBody physicsBody = physicsCm.get(e);
+            if(physicsBody != null) {
+                if (physicsBody.body.getLinearVelocity().x > 0f) {
+                    facing.direction = Facing.Direction.RIGHT;
+                } else if (physicsBody.body.getLinearVelocity().x < 0f) {
+                    facing.direction = Facing.Direction.LEFT;
+                }
             }
         }
 

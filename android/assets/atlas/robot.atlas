@@ -1,0 +1,48 @@
+
+robot.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hurt
+  rotate: false
+  xy: 2, 2
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: 1
+hurt
+  rotate: false
+  xy: 200, 170
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: 2
+idle
+  rotate: false
+  xy: 184, 40
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: 1
+jump
+  rotate: false
+  xy: 2, 284
+  size: 196, 162
+  orig: 196, 162
+  offset: 0, 0
+  index: 1
+walk
+  rotate: false
+  xy: 2, 132
+  size: 180, 150
+  orig: 180, 150
+  offset: 0, 0
+  index: 1
+walk
+  rotate: false
+  xy: 200, 300
+  size: 180, 146
+  orig: 180, 146
+  offset: 0, 0
+  index: 2

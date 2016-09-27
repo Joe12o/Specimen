@@ -40,7 +40,7 @@
       "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 0,
+  "activeLayerId": 2,
   "groupIds": [],
   "schemes": [
     {
@@ -1735,6 +1735,12 @@
         {
           "layerId": 2,
           "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            0
+          ],
+          "@class": "VisGroup"
         },
         {
           "uuid": "816ec3a5-48a9-45c4-98b0-bc0b553c2191",

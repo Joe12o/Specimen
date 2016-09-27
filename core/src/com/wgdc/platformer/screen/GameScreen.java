@@ -21,7 +21,7 @@ import com.kotcrab.vis.runtime.util.EntityEngineConfiguration;
 import com.wgdc.platformer.Assets;
 import com.wgdc.platformer.Platformer;
 import com.wgdc.platformer.component.Bullet;
-import com.wgdc.platformer.component.JumpState;
+import com.wgdc.platformer.component.Health;
 import com.wgdc.platformer.manager.GameManager;
 import com.wgdc.platformer.system.*;
 
@@ -71,6 +71,8 @@ public class GameScreen extends ScreenAdapter {
         param.config.addSystem(EnemySpawnerSystem.class);
         param.config.addSystem(AnimationSystem.class, SceneConfig.Priority.HIGH);
         param.config.addSystem(DirectedSpriteSystem.class, SceneConfig.Priority.LOWEST);
+        param.config.addSystem(DamageSystem.class, SceneConfig.Priority.LOWEST);
+        param.config.addSystem(JumpStateSystem.class);
         param.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
         scene = Assets.instance().loadScene("scene/level.scene", param);
 
@@ -83,30 +85,23 @@ public class GameScreen extends ScreenAdapter {
                 Entity e1 = (Entity) contact.getFixtureA().getBody().getUserData();
                 Entity e2 = (Entity) contact.getFixtureB().getBody().getUserData();
 
-                VisID id1 = e1.getComponent(VisID.class);
-                VisID id2 = e2.getComponent(VisID.class);
-                if(id1 != null && id1.id.equals("ground")) {
-                    JumpState state = e2.getComponent(JumpState.class);
-                    if(state != null) {
-                        state.jumping = false;
-                    }
-                }
-
-                if(id2 != null && id2.id.equals("ground")) {
-                    JumpState state = e1.getComponent(JumpState.class);
-                    if(state != null) {
-                        state.jumping = false;
-                    }
-                }
-
                 Bullet bullet1 = e1.getComponent(Bullet.class);
-                Bullet bullet2 = e1.getComponent(Bullet.class);
                 if(bullet1 != null) {
+                    Health health = e2.getComponent(Health.class);
+                    if(health != null) {
+                        health.damage(bullet1.damage);
+                        e1.deleteFromWorld();
+                    }
                     return;
                 }
 
+                Bullet bullet2 = e2.getComponent(Bullet.class);
                 if(bullet2 != null) {
-                    return;
+                    Health health = e1.getComponent(Health.class);
+                    if(health != null) {
+                        health.damage(bullet2.damage);
+                        e2.deleteFromWorld();
+                    }
                 }
             }
 

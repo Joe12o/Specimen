@@ -42,7 +42,7 @@ public enum ShooterState implements State<ShooterAgent> {
             if(entity.shooterBody.getLinearVelocity().x > 25f || entity.shooterBody.getLinearVelocity().x < -25f) return;
             vec1.set(entity.nextNode.worldX, 0f);
             vec2.set(entity.shooterBody.getWorldCenter().x, 0f);
-            entity.shooterBody.applyLinearImpulse(vec1.sub(vec2).nor().scl(180f), entity.shooterBody.getWorldCenter(), true);
+            entity.shooterBody.applyLinearImpulse(vec1.sub(vec2).nor().scl(20f), entity.shooterBody.getWorldCenter(), true);
         }
     },
     ATTACK() {
@@ -75,13 +75,13 @@ public enum ShooterState implements State<ShooterAgent> {
                         .add(new Layer(1))
                         .add(new Transform(entity.getPosition().x, entity.getPosition().y, 0.15f, 0.15f, 0f))
                         .add(PlayerSystem.bulletSprite)
-                        .add(new Bullet(vec1.x, vec1.y))
+                        .add(new Bullet(vec1.x, vec1.y, 1, false))
                         .add(new Light(8, Color.GREEN, 10f, 0f, 0f))
                         .add(new Origin(-1.1f, -1.15f))
                         .add(new Lifetime(3))
                         .add(new VisID("bullet"));
 
-                shotCooldown = 20;
+                shotCooldown = 30;
             }
 
             shotCooldown--;

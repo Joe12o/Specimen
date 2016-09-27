@@ -2,73 +2,102 @@ package com.wgdc.platformer.system;
 
 import com.artemis.BaseSystem;
 import com.artemis.Entity;
+import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.*;
+import com.badlogic.gdx.utils.Array;
 import com.kotcrab.vis.runtime.component.*;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.system.VisIDManager;
 import com.kotcrab.vis.runtime.system.physics.PhysicsSystem;
 import com.kotcrab.vis.runtime.util.AfterSceneInit;
-import com.wgdc.platformer.component.AutoDirection;
-import com.wgdc.platformer.component.Facing;
-import com.wgdc.platformer.component.ShooterAi;
+import com.wgdc.platformer.component.*;
 
 public class EnemySpawnerSystem extends BaseSystem implements AfterSceneInit {
 
     private VisIDManager idManager;
-    public boolean spawn = false;
-    public VisSprite sprite;
+    private Array<Vector2> spawnPoints;
+    private int ticksSinceLastSpawn = 0;
+
+    // Robot template stuff
+    private AssetReference robotAssetRef;
+    private VisSpriteAnimation robotAnimation;
+    private VisSprite robotSprite;
+    private Transform robotTransform;
+
+    private World physWorld;
 
     @Override
     public void afterSceneInit() {
-        sprite = idManager.get("player").getComponent(VisSprite.class);
+        spawnPoints = new Array<Vector2>();
+        Array<Entity> pointEntities = idManager.getMultiple("spawnpoint");
+        for(Entity e : pointEntities) {
+            Transform t = e.getComponent(Transform.class);
+            spawnPoints.add(new Vector2(t.getX(), t.getY()));
+        }
+
+        Entity template = idManager.get("tempRobot");
+        robotAssetRef = template.getComponent(AssetReference.class);
+        robotAnimation = template.getComponent(VisSpriteAnimation.class);
+        robotSprite = template.getComponent(VisSprite.class);
+        robotTransform = template.getComponent(Transform.class);
+        template.deleteFromWorld();
+
+        physWorld = world.getSystem(PhysicsSystem.class).getPhysicsWorld();
     }
 
     @Override
     protected void processSystem() {
-        if(spawn) {
+        if(MathUtils.random(50) == 1 && ticksSinceLastSpawn >= 120) {
+            Vector2 spawnLocation = spawnPoints.random();
+            Body body = getNewBody(spawnLocation);
+            VisSpriteAnimation animation = new VisSpriteAnimation(robotAnimation);
+            animation.setDirty(true);
             Entity e = world.createEntity().edit()
                     .add(new Renderable(0))
                     .add(new Layer(1))
-                    .add(new Transform(70f, 20f, 0.5f, 0.5f, 0f))
-                    .add(sprite)
-                    .add(new Origin(-6, -5))
+                    .add(new Transform(spawnLocation.x, spawnLocation.y, robotTransform.getScaleX(), robotTransform.getScaleY(), 0f))
+                    .add(new VisSprite(robotSprite))
+                    .add(new VisSpriteAnimation())
+                    .add(robotAssetRef)
+                    .add(new Origin(-3.75f, -2.75f))
                     .add(new Facing(Facing.Direction.RIGHT))
-                    .add(new AutoDirection()).getEntity();
-
-            World physWorld = world.getSystem(PhysicsSystem.class).getPhysicsWorld();
-            spawn = false;
-
-            Transform transform = e.getComponent(Transform.class);
-            Vector2 worldPos = new Vector2(transform.getX(), transform.getY());
-
-            BodyDef bodyDef = new BodyDef();
-            bodyDef.position.set(worldPos);
-
-            Body body = physWorld.createBody(bodyDef);
-            body.setType(BodyDef.BodyType.DynamicBody);
+                    .add(new AutoDirection())
+                    .add(new PhysicsBody(body))
+                    .add(new PhysicsSprite(0f))
+                    .add(new AnimationState())
+                    .add(new Health(10))
+                    .add(new ShooterAi()).getEntity();
             body.setUserData(e);
-
-            body.setFixedRotation(true);
-            body.setSleepingAllowed(true);
-            body.setActive(true);
-
-            PolygonShape shape = new PolygonShape();
-            shape.setAsBox(2f, 3f);
-
-            FixtureDef fd = new FixtureDef();
-            fd.density = 1f;
-            fd.friction = 4f;
-            fd.restitution = 0f;
-            fd.shape = shape;
-            fd.filter.groupIndex = -1;
-
-            body.createFixture(fd);
-            shape.dispose();
-
-            e.edit().add(new PhysicsBody(body))
-                    .add(new PhysicsSprite(transform.getRotation()))
-                    .add(new ShooterAi());
+            ticksSinceLastSpawn = 0;
         }
+        ticksSinceLastSpawn++;
+    }
+
+    private Body getNewBody(Vector2 location) {
+        BodyDef bodyDef = new BodyDef();
+        bodyDef.position.set(location);
+
+        Body body = physWorld.createBody(bodyDef);
+        body.setType(BodyDef.BodyType.DynamicBody);
+
+        body.setFixedRotation(true);
+        body.setSleepingAllowed(true);
+        body.setActive(true);
+
+        PolygonShape shape = new PolygonShape();
+        shape.setAsBox(2.7f, 1.85f);
+
+        FixtureDef fd = new FixtureDef();
+        fd.friction = 4f;
+        fd.shape = shape;
+        fd.filter.categoryBits = 0x0004;
+        fd.filter.maskBits = 0x0001 | 0x0010; // GROUND | PLAYER_BULLETS
+        //fd.filter.groupIndex = -2;
+
+        body.createFixture(fd);
+        shape.dispose();
+
+        return body;
     }
 }

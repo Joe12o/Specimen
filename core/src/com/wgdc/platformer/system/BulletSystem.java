@@ -31,6 +31,7 @@ public class BulletSystem extends EntityProcessingSystem {
     public void inserted(Entity e) {
         Transform transform = transformCm.get(e);
         Vector2 worldPos = new Vector2(transform.getX(), transform.getY());
+        Bullet bullet = e.getComponent(Bullet.class);
 
         BodyDef bodyDef = new BodyDef();
         bodyDef.position.set(worldPos);
@@ -53,7 +54,9 @@ public class BulletSystem extends EntityProcessingSystem {
         fd.friction = 0f;
         fd.restitution = 1f;
         fd.shape = shape;
-        fd.filter.groupIndex = -1;
+        fd.filter.categoryBits = (short) (bullet.playerShot ? 0x0010 : 0x0008);
+        fd.filter.maskBits = (short) (bullet.playerShot ? 0x0001 | 0x0004 : 0x0001 | 0x0002);
+        //fd.filter.groupIndex = (short) (bullet.playerShot ? -1 : -2);
 
         body.createFixture(fd);
         shape.dispose();
@@ -61,7 +64,6 @@ public class BulletSystem extends EntityProcessingSystem {
         e.edit().add(new PhysicsBody(body))
                 .add(new PhysicsSprite(transform.getRotation()));
 
-        Bullet bullet = e.getComponent(Bullet.class);
         e.getComponent(PhysicsBody.class).body.applyForceToCenter(bullet.velX, bullet.velY, true);
     }
 
