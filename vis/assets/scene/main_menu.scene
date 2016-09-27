@@ -1,0 +1,101 @@
+{
+  "versionCode": 2,
+  "path": "scene/main_menu.scene",
+  "width": 12.8,
+  "height": 7.2,
+  "pixelsPerUnit": 100.0,
+  "viewport": "STRETCH",
+  "physicsSettings": {
+    "physicsEnabled": false,
+    "gravityX": 0.0,
+    "gravityY": 0.0,
+    "allowSleep": false
+  },
+  "variables": {
+    "variables": []
+  },
+  "layers": [
+    {
+      "name": "Background",
+      "id": 0,
+      "locked": false,
+      "visible": true,
+      "cordsSystem": "WORLD",
+      "@class": "EditorLayer"
+    }
+  ],
+  "activeLayerId": 0,
+  "groupIds": [],
+  "schemes": [
+    {
+      "components": [
+        {
+          "x": 5.01129,
+          "y": 5.9257727,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.465,
+          "originY": 0.22999999,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.6392157,
+            "g": 0.078431375,
+            "b": 0.078431375,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "fontSize": 64,
+            "relativePath": "font/Exo-Regular.ttf",
+            "@class": "TtfFontAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "pixelsPerUnits": 100.0,
+          "scale": 0.01,
+          "@class": "PixelsPerUnit"
+        },
+        {
+          "text": "SPECIMEN",
+          "autoSetOriginToCenter": true,
+          "isUsesDistanceField": false,
+          "@class": "ProtoVisText"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "66957d8d-92a5-4a9b-9dab-616e51005daf",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        },
+        {
+          "componentsToDrop": [
+            {
+              "@content": "PixelsPerUnit",
+              "@class": "Class"
+            }
+          ],
+          "@class": "ExporterDropsComponent"
+        }
+      ],
+      "@class": "EntityScheme"
+    }
+  ]
+}

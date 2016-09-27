@@ -1,0 +1,6193 @@
+
+textures.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/blue_desert
+  rotate: false
+  xy: 2, 1022
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_001
+  rotate: false
+  xy: 1722, 20
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Particles/brickBrown
+  rotate: false
+  xy: 1052, 26
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gfx/Particles/brickGrey
+  rotate: false
+  xy: 1855, 10
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_climb1
+  rotate: false
+  xy: 1724, 1235
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_jump
+  rotate: false
+  xy: 1028, 1023
+  size: 135, 191
+  orig: 135, 191
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_swim2
+  rotate: false
+  xy: 1268, 1045
+  size: 140, 197
+  orig: 140, 197
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_swim2
+  rotate: false
+  xy: 1753, 1036
+  size: 140, 197
+  orig: 140, 197
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_swim2
+  rotate: false
+  xy: 1895, 1048
+  size: 140, 197
+  orig: 140, 197
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_jump
+  rotate: false
+  xy: 537, 3
+  size: 135, 171
+  orig: 135, 171
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/castle_wall
+  rotate: false
+  xy: 1318, 1520
+  size: 295, 138
+  orig: 295, 138
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud1
+  rotate: false
+  xy: 1854, 1247
+  size: 189, 127
+  orig: 189, 127
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud4
+  rotate: false
+  xy: 1807, 544
+  size: 228, 124
+  orig: 228, 124
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud5
+  rotate: false
+  xy: 1296, 1244
+  size: 239, 134
+  orig: 239, 134
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud6
+  rotate: false
+  xy: 1028, 1353
+  size: 266, 138
+  orig: 266, 138
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud7
+  rotate: false
+  xy: 1807, 796
+  size: 234, 118
+  orig: 234, 118
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/clouds1
+  rotate: false
+  xy: 804, 814
+  size: 1001, 206
+  orig: 1001, 206
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/clouds2
+  rotate: false
+  xy: 1028, 1800
+  size: 1000, 246
+  orig: 1000, 246
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/grass1
+  rotate: false
+  xy: 1268, 1291
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/grass2
+  rotate: false
+  xy: 1536, 1037
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/hills1
+  rotate: false
+  xy: 804, 514
+  size: 1001, 128
+  orig: 1001, 128
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/hills2
+  rotate: false
+  xy: 804, 384
+  size: 1001, 128
+  orig: 1001, 128
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/house_side_short
+  rotate: false
+  xy: 1855, 44
+  size: 189, 115
+  orig: 189, 115
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/mountain1
+  rotate: false
+  xy: 249, 112
+  size: 286, 306
+  orig: 286, 306
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/mountain2
+  rotate: false
+  xy: 537, 176
+  size: 249, 242
+  orig: 249, 242
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/mountain3
+  rotate: false
+  xy: 2, 21
+  size: 245, 397
+  orig: 245, 397
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/piramid
+  rotate: false
+  xy: 1505, 48
+  size: 215, 166
+  orig: 215, 166
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/pointy_mountains
+  rotate: false
+  xy: 804, 644
+  size: 1001, 168
+  orig: 1001, 168
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/temple
+  rotate: false
+  xy: 1807, 278
+  size: 223, 131
+  orig: 223, 131
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree01
+  rotate: false
+  xy: 1586, 1198
+  size: 136, 293
+  orig: 136, 293
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree05
+  rotate: false
+  xy: 1722, 238
+  size: 70, 144
+  orig: 70, 144
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree07
+  rotate: false
+  xy: 1109, 122
+  size: 97, 260
+  orig: 97, 260
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree08
+  rotate: false
+  xy: 926, 97
+  size: 59, 285
+  orig: 59, 285
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree10
+  rotate: false
+  xy: 1794, 17
+  size: 59, 259
+  orig: 59, 259
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree11
+  rotate: false
+  xy: 1028, 1493
+  size: 143, 305
+  orig: 143, 305
+  offset: 0, 0
+  index: -1
+gfx/bgElems/castle_wall
+  rotate: false
+  xy: 1318, 1660
+  size: 295, 138
+  orig: 295, 138
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud1
+  rotate: false
+  xy: 1854, 1376
+  size: 190, 127
+  orig: 190, 127
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud4
+  rotate: false
+  xy: 1807, 670
+  size: 228, 124
+  orig: 228, 124
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud5
+  rotate: false
+  xy: 1028, 1216
+  size: 238, 135
+  orig: 238, 135
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud6
+  rotate: false
+  xy: 1318, 1380
+  size: 266, 138
+  orig: 266, 138
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud7
+  rotate: false
+  xy: 1807, 916
+  size: 234, 118
+  orig: 234, 118
+  offset: 0, 0
+  index: -1
+gfx/bgElems/fence
+  rotate: false
+  xy: 1373, 32
+  size: 128, 88
+  orig: 128, 88
+  offset: 0, 0
+  index: -1
+gfx/bgElems/fence_piece
+  rotate: false
+  xy: 674, 88
+  size: 110, 86
+  orig: 110, 86
+  offset: 0, 0
+  index: -1
+gfx/bgElems/grass1
+  rotate: false
+  xy: 1268, 1322
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+gfx/bgElems/grass2
+  rotate: false
+  xy: 1268, 1260
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+gfx/bgElems/grass3
+  rotate: false
+  xy: 873, 52
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+gfx/bgElems/grass4
+  rotate: false
+  xy: 873, 15
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+gfx/bgElems/grass5
+  rotate: false
+  xy: 1724, 1204
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+gfx/bgElems/grass6
+  rotate: false
+  xy: 1052, 60
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+gfx/bgElems/house_beige_front
+  rotate: false
+  xy: 1269, 5
+  size: 102, 115
+  orig: 102, 115
+  offset: 0, 0
+  index: -1
+gfx/bgElems/house_beige_side
+  rotate: false
+  xy: 1855, 161
+  size: 189, 115
+  orig: 189, 115
+  offset: 0, 0
+  index: -1
+gfx/bgElems/house_grey_side
+  rotate: false
+  xy: 1577, 1022
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+gfx/bgElems/moon_full
+  rotate: false
+  xy: 786, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+gfx/bgElems/piramid
+  rotate: false
+  xy: 1505, 216
+  size: 215, 166
+  orig: 215, 166
+  offset: 0, 0
+  index: -1
+gfx/bgElems/temple
+  rotate: false
+  xy: 1807, 411
+  size: 223, 131
+  orig: 223, 131
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree02
+  rotate: false
+  xy: 1760, 1505
+  size: 136, 293
+  orig: 136, 293
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree03
+  rotate: false
+  xy: 1898, 1505
+  size: 136, 293
+  orig: 136, 293
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree04
+  rotate: false
+  xy: 788, 89
+  size: 136, 293
+  orig: 136, 293
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree16
+  rotate: false
+  xy: 1722, 92
+  size: 70, 144
+  orig: 70, 144
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree20
+  rotate: false
+  xy: 1208, 122
+  size: 97, 260
+  orig: 97, 260
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree21
+  rotate: false
+  xy: 1307, 122
+  size: 97, 260
+  orig: 97, 260
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree22
+  rotate: false
+  xy: 1406, 122
+  size: 97, 260
+  orig: 97, 260
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree23
+  rotate: false
+  xy: 987, 97
+  size: 59, 285
+  orig: 59, 285
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree24
+  rotate: false
+  xy: 1048, 97
+  size: 59, 285
+  orig: 59, 285
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree29
+  rotate: false
+  xy: 1173, 1493
+  size: 143, 305
+  orig: 143, 305
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree30
+  rotate: false
+  xy: 1615, 1493
+  size: 143, 305
+  orig: 143, 305
+  offset: 0, 0
+  index: -1
+gfx/bg_1_1
+  rotate: false
+  xy: 2, 420
+  size: 800, 600
+  orig: 800, 600
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenBody
+  rotate: false
+  xy: 375, 6
+  size: 157, 104
+  orig: 157, 104
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenDrive2
+  rotate: false
+  xy: 1109, 4
+  size: 158, 116
+  orig: 158, 116
+  offset: 0, 0
+  index: -1
+gfx/robots/tracks_back1
+  rotate: false
+  xy: 674, 20
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+gfx/robots/tracks_back2
+  rotate: false
+  xy: 674, 20
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBeige1
+  rotate: false
+  xy: 1537, 1278
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBeige3
+  rotate: false
+  xy: 1165, 1179
+  size: 93, 35
+  orig: 93, 35
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBlue1
+  rotate: false
+  xy: 1537, 1176
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBlue3
+  rotate: false
+  xy: 1165, 1142
+  size: 93, 35
+  orig: 93, 35
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserGreen1
+  rotate: false
+  xy: 1536, 1074
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserGreen3
+  rotate: false
+  xy: 1165, 1105
+  size: 93, 35
+  orig: 93, 35
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserPink3
+  rotate: false
+  xy: 1165, 1068
+  size: 93, 35
+  orig: 93, 35
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserYellow3
+  rotate: false
+  xy: 1165, 1031
+  size: 93, 35
+  orig: 93, 35
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBlue
+  rotate: false
+  xy: 926, 5
+  size: 124, 90
+  orig: 124, 90
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBlue_manned
+  rotate: false
+  xy: 1410, 1097
+  size: 124, 145
+  orig: 124, 145
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipPink
+  rotate: false
+  xy: 1410, 1023
+  size: 124, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipYellow_manned
+  rotate: false
+  xy: 249, 2
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1
+
+textures2.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/blue_grass
+  rotate: false
+  xy: 2, 1021
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_002
+  rotate: false
+  xy: 1028, 1975
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_003
+  rotate: false
+  xy: 1103, 746
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_004
+  rotate: false
+  xy: 1352, 181
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_climb2
+  rotate: false
+  xy: 2, 241
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_duck
+  rotate: false
+  xy: 63, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_front
+  rotate: false
+  xy: 63, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_hit
+  rotate: false
+  xy: 132, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_jump
+  rotate: false
+  xy: 193, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_stand
+  rotate: false
+  xy: 193, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_swim1
+  rotate: false
+  xy: 262, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_swim2
+  rotate: false
+  xy: 323, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_walk1
+  rotate: false
+  xy: 323, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Beige/alienBeige_walk2
+  rotate: false
+  xy: 392, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_climb1
+  rotate: false
+  xy: 453, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_climb2
+  rotate: false
+  xy: 453, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_duck
+  rotate: false
+  xy: 522, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_front
+  rotate: false
+  xy: 583, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_hit
+  rotate: false
+  xy: 583, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_jump
+  rotate: false
+  xy: 652, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_stand
+  rotate: false
+  xy: 713, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_swim1
+  rotate: false
+  xy: 713, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_swim2
+  rotate: false
+  xy: 782, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_walk1
+  rotate: false
+  xy: 843, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Blue/alienBlue_walk2
+  rotate: false
+  xy: 843, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_climb1
+  rotate: false
+  xy: 912, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_climb2
+  rotate: false
+  xy: 973, 763
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_duck
+  rotate: false
+  xy: 973, 505
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_front
+  rotate: false
+  xy: 1042, 247
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_hit
+  rotate: false
+  xy: 1172, 253
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_jump
+  rotate: false
+  xy: 1302, 253
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_walk2
+  rotate: false
+  xy: 1636, 20
+  size: 140, 195
+  orig: 140, 195
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_walk2
+  rotate: false
+  xy: 1778, 24
+  size: 140, 195
+  orig: 140, 195
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_swim2
+  rotate: false
+  xy: 1494, 38
+  size: 140, 197
+  orig: 140, 197
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_swim2
+  rotate: false
+  xy: 1352, 2
+  size: 140, 177
+  orig: 140, 177
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/castle
+  rotate: false
+  xy: 1427, 1742
+  size: 205, 182
+  orig: 205, 182
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud2
+  rotate: false
+  xy: 1216, 1494
+  size: 199, 125
+  orig: 199, 125
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud3
+  rotate: false
+  xy: 1760, 1103
+  size: 176, 121
+  orig: 176, 121
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud8
+  rotate: false
+  xy: 1216, 1805
+  size: 209, 119
+  orig: 209, 119
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/cloud9
+  rotate: false
+  xy: 1431, 1926
+  size: 212, 119
+  orig: 212, 119
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/fence_piece
+  rotate: false
+  xy: 1103, 1959
+  size: 110, 86
+  orig: 110, 86
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/house_front_short
+  rotate: false
+  xy: 1523, 632
+  size: 102, 115
+  orig: 102, 115
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/house_front_tall
+  rotate: false
+  xy: 1928, 875
+  size: 102, 174
+  orig: 102, 174
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/house_side_tall
+  rotate: false
+  xy: 1578, 952
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tower
+  rotate: false
+  xy: 1979, 1275
+  size: 66, 227
+  orig: 66, 227
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree02
+  rotate: false
+  xy: 826, 15
+  size: 128, 230
+  orig: 128, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree03
+  rotate: false
+  xy: 1363, 514
+  size: 48, 105
+  orig: 48, 105
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree04
+  rotate: false
+  xy: 133, 4
+  size: 106, 241
+  orig: 106, 241
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree06
+  rotate: false
+  xy: 1636, 217
+  size: 53, 144
+  orig: 53, 144
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree09
+  rotate: false
+  xy: 1028, 1022
+  size: 59, 245
+  orig: 59, 245
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree12
+  rotate: false
+  xy: 1902, 621
+  size: 141, 252
+  orig: 141, 252
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/tree13
+  rotate: false
+  xy: 1103, 511
+  size: 128, 230
+  orig: 128, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/castle_beige
+  rotate: false
+  xy: 1216, 1621
+  size: 204, 182
+  orig: 204, 182
+  offset: 0, 0
+  index: -1
+gfx/bgElems/castle_grey
+  rotate: false
+  xy: 1634, 1742
+  size: 204, 182
+  orig: 204, 182
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud2
+  rotate: false
+  xy: 1422, 1615
+  size: 200, 125
+  orig: 200, 125
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud3
+  rotate: false
+  xy: 1216, 1029
+  size: 177, 121
+  orig: 177, 121
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud8
+  rotate: false
+  xy: 1645, 1926
+  size: 210, 119
+  orig: 210, 119
+  offset: 0, 0
+  index: -1
+gfx/bgElems/cloud9
+  rotate: false
+  xy: 1216, 1926
+  size: 213, 119
+  orig: 213, 119
+  offset: 0, 0
+  index: -1
+gfx/bgElems/house_grey_front
+  rotate: false
+  xy: 1628, 696
+  size: 102, 174
+  orig: 102, 174
+  offset: 0, 0
+  index: -1
+gfx/bgElems/moon_half
+  rotate: false
+  xy: 1627, 609
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+gfx/bgElems/sun
+  rotate: false
+  xy: 1953, 1187
+  size: 87, 86
+  orig: 87, 86
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tower_beige
+  rotate: false
+  xy: 1216, 24
+  size: 66, 227
+  orig: 66, 227
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tower_grey
+  rotate: false
+  xy: 1284, 24
+  size: 66, 227
+  orig: 66, 227
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree01
+  rotate: false
+  xy: 696, 15
+  size: 128, 230
+  orig: 128, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree05
+  rotate: false
+  xy: 2, 9
+  size: 129, 230
+  orig: 129, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree06
+  rotate: false
+  xy: 956, 15
+  size: 128, 230
+  orig: 128, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree07
+  rotate: false
+  xy: 1086, 15
+  size: 128, 230
+  orig: 128, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree08
+  rotate: false
+  xy: 1413, 514
+  size: 48, 105
+  orig: 48, 105
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree09
+  rotate: false
+  xy: 1575, 256
+  size: 48, 105
+  orig: 48, 105
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree10
+  rotate: false
+  xy: 241, 4
+  size: 106, 241
+  orig: 106, 241
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree11
+  rotate: false
+  xy: 349, 4
+  size: 106, 241
+  orig: 106, 241
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree12
+  rotate: false
+  xy: 457, 4
+  size: 106, 241
+  orig: 106, 241
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree18
+  rotate: false
+  xy: 1622, 363
+  size: 70, 144
+  orig: 70, 144
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree25
+  rotate: false
+  xy: 1089, 1022
+  size: 59, 245
+  orig: 59, 245
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree26
+  rotate: false
+  xy: 1150, 818
+  size: 59, 245
+  orig: 59, 245
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree27
+  rotate: false
+  xy: 2, 760
+  size: 59, 259
+  orig: 59, 259
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree28
+  rotate: false
+  xy: 2, 499
+  size: 59, 259
+  orig: 59, 259
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree31
+  rotate: false
+  xy: 1432, 237
+  size: 141, 252
+  orig: 141, 252
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree34
+  rotate: false
+  xy: 565, 15
+  size: 129, 230
+  orig: 129, 230
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree35
+  rotate: false
+  xy: 1233, 511
+  size: 128, 230
+  orig: 128, 230
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueBody
+  rotate: false
+  xy: 1732, 665
+  size: 157, 128
+  orig: 157, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueDamage1
+  rotate: false
+  xy: 1463, 491
+  size: 157, 128
+  orig: 157, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueDamage2
+  rotate: false
+  xy: 1713, 535
+  size: 157, 128
+  orig: 157, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueDrive1
+  rotate: false
+  xy: 1216, 743
+  size: 158, 150
+  orig: 158, 150
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueDrive2
+  rotate: false
+  xy: 1742, 795
+  size: 158, 146
+  orig: 158, 146
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueHurt
+  rotate: false
+  xy: 1872, 491
+  size: 157, 128
+  orig: 157, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_blueJump
+  rotate: false
+  xy: 1398, 1001
+  size: 178, 162
+  orig: 178, 162
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenDamage1
+  rotate: false
+  xy: 1707, 429
+  size: 157, 104
+  orig: 157, 104
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenDamage2
+  rotate: false
+  xy: 1866, 385
+  size: 157, 104
+  orig: 157, 104
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenDrive1
+  rotate: false
+  xy: 1363, 621
+  size: 158, 120
+  orig: 158, 120
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenHurt
+  rotate: false
+  xy: 1694, 323
+  size: 157, 104
+  orig: 157, 104
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_greenJump
+  rotate: false
+  xy: 1216, 895
+  size: 176, 132
+  orig: 176, 132
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redBody
+  rotate: false
+  xy: 1591, 1258
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redDamage1
+  rotate: false
+  xy: 1398, 1165
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redDamage2
+  rotate: false
+  xy: 1772, 1226
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redDrive1
+  rotate: false
+  xy: 1216, 1152
+  size: 180, 150
+  orig: 180, 150
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redDrive2
+  rotate: false
+  xy: 1797, 1356
+  size: 180, 146
+  orig: 180, 146
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redHurt
+  rotate: false
+  xy: 1579, 1128
+  size: 179, 128
+  orig: 179, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_redJump
+  rotate: false
+  xy: 1624, 1578
+  size: 196, 162
+  orig: 196, 162
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowBody
+  rotate: false
+  xy: 1028, 1529
+  size: 183, 128
+  orig: 183, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowDamage1
+  rotate: false
+  xy: 1028, 1399
+  size: 183, 128
+  orig: 183, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowDamage2
+  rotate: false
+  xy: 1028, 1269
+  size: 183, 128
+  orig: 183, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowDrive1
+  rotate: false
+  xy: 1028, 1807
+  size: 184, 150
+  orig: 184, 150
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowDrive2
+  rotate: false
+  xy: 1028, 1659
+  size: 184, 146
+  orig: 184, 146
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowHurt
+  rotate: false
+  xy: 1406, 1295
+  size: 183, 128
+  orig: 183, 128
+  offset: 0, 0
+  index: -1
+gfx/robots/robot_yellowJump
+  rotate: false
+  xy: 1840, 1694
+  size: 202, 161
+  orig: 202, 161
+  offset: 0, 0
+  index: -1
+gfx/robots/tracks_long1
+  rotate: false
+  xy: 1920, 317
+  size: 125, 66
+  orig: 125, 66
+  offset: 0, 0
+  index: -1
+gfx/robots/tracks_long2
+  rotate: false
+  xy: 1920, 249
+  size: 125, 66
+  orig: 125, 66
+  offset: 0, 0
+  index: -1
+gfx/robots/tracks_short1
+  rotate: false
+  xy: 1938, 1119
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+gfx/robots/tracks_short2
+  rotate: false
+  xy: 1938, 1051
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+gfx/ufos/dome
+  rotate: false
+  xy: 1622, 509
+  size: 83, 98
+  orig: 83, 98
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBeige2
+  rotate: false
+  xy: 1691, 221
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBeige_burst
+  rotate: false
+  xy: 1857, 1857
+  size: 188, 188
+  orig: 188, 188
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBeige_groundBurst
+  rotate: false
+  xy: 1394, 921
+  size: 172, 78
+  orig: 172, 78
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBlue2
+  rotate: false
+  xy: 1761, 221
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBlue_burst
+  rotate: false
+  xy: 1417, 1425
+  size: 188, 188
+  orig: 188, 188
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserBlue_groundBurst
+  rotate: false
+  xy: 1754, 1023
+  size: 172, 78
+  orig: 172, 78
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserGreen2
+  rotate: false
+  xy: 1831, 221
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserGreen_burst
+  rotate: false
+  xy: 1216, 1304
+  size: 188, 188
+  orig: 188, 188
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserGreen_groundBurst
+  rotate: false
+  xy: 1754, 943
+  size: 172, 78
+  orig: 172, 78
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserPink1
+  rotate: false
+  xy: 1172, 1167
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserPink_burst
+  rotate: false
+  xy: 1822, 1504
+  size: 188, 188
+  orig: 188, 188
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserPink_groundBurst
+  rotate: false
+  xy: 1568, 872
+  size: 172, 78
+  orig: 172, 78
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserYellow1
+  rotate: false
+  xy: 1172, 1065
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserYellow_burst
+  rotate: false
+  xy: 1607, 1388
+  size: 188, 188
+  orig: 188, 188
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserYellow_groundBurst
+  rotate: false
+  xy: 1394, 841
+  size: 172, 78
+  orig: 172, 78
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBlue_damage1
+  rotate: false
+  xy: 1376, 749
+  size: 124, 90
+  orig: 124, 90
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBlue_damage2
+  rotate: false
+  xy: 1502, 749
+  size: 124, 90
+  orig: 124, 90
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipPink_damage
+  rotate: false
+  xy: 1920, 46
+  size: 124, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipPink_manned
+  rotate: false
+  xy: 1920, 120
+  size: 124, 127
+  orig: 124, 127
+  offset: 0, 0
+  index: -1
+
+textures3.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/blue_land
+  rotate: false
+  xy: 2, 1013
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+gfx/Enemies/barnacle
+  rotate: false
+  xy: 132, 245
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/barnacle_attack
+  rotate: false
+  xy: 262, 245
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/barnacle_dead
+  rotate: false
+  xy: 1242, 392
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/bee
+  rotate: false
+  xy: 1515, 424
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/bee_dead
+  rotate: false
+  xy: 1645, 424
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/bee_move
+  rotate: false
+  xy: 1775, 429
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirt
+  rotate: false
+  xy: 1214, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCenter
+  rotate: false
+  xy: 1344, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCenter_rounded
+  rotate: false
+  xy: 1474, 34
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCliffAlt_left
+  rotate: false
+  xy: 1604, 34
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCliffAlt_right
+  rotate: false
+  xy: 1734, 164
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCliff_left
+  rotate: false
+  xy: 1734, 34
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCliff_right
+  rotate: false
+  xy: 1864, 49
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/coinBronze
+  rotate: false
+  xy: 1344, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/coinGold
+  rotate: false
+  xy: 1474, 164
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/coinSilver
+  rotate: false
+  xy: 1604, 164
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_005
+  rotate: false
+  xy: 1948, 1410
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_006
+  rotate: false
+  xy: 1948, 1338
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_007
+  rotate: false
+  xy: 1951, 1719
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_008
+  rotate: false
+  xy: 1950, 1647
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_stand
+  rotate: false
+  xy: 2, 501
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_swim1
+  rotate: false
+  xy: 1028, 1527
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_swim2
+  rotate: false
+  xy: 2, 243
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_walk1
+  rotate: false
+  xy: 1028, 1269
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Green/alienGreen_walk2
+  rotate: false
+  xy: 1028, 1011
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/climb_1
+  rotate: false
+  xy: 795, 755
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/climb_2
+  rotate: false
+  xy: 1158, 1523
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/duck_1
+  rotate: false
+  xy: 1158, 1265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/hit_1
+  rotate: false
+  xy: 1288, 1523
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/idle_1
+  rotate: false
+  xy: 1288, 1265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/jump_1
+  rotate: false
+  xy: 1418, 1523
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/stand_1
+  rotate: false
+  xy: 1418, 1265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/swim_1
+  rotate: false
+  xy: 1548, 1523
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/swim_2
+  rotate: false
+  xy: 1548, 1265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/walk_1
+  rotate: false
+  xy: 1678, 1523
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Pink/walk_2
+  rotate: false
+  xy: 1678, 1265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_climb1
+  rotate: false
+  xy: 1171, 1781
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_climb2
+  rotate: false
+  xy: 1301, 1781
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_duck
+  rotate: false
+  xy: 1431, 1781
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_front
+  rotate: false
+  xy: 1561, 1781
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_hit
+  rotate: false
+  xy: 1691, 1781
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_jump
+  rotate: false
+  xy: 1821, 1781
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_stand
+  rotate: false
+  xy: 145, 755
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_swim1
+  rotate: false
+  xy: 275, 755
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_swim2
+  rotate: false
+  xy: 405, 755
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_walk1
+  rotate: false
+  xy: 535, 755
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/128x256/Yellow/alienYellow_walk2
+  rotate: false
+  xy: 665, 755
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_climb1
+  rotate: false
+  xy: 1720, 1075
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_climb2
+  rotate: false
+  xy: 139, 55
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_duck
+  rotate: false
+  xy: 958, 483
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_front
+  rotate: false
+  xy: 273, 55
+  size: 131, 188
+  orig: 131, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_hit
+  rotate: false
+  xy: 132, 565
+  size: 138, 188
+  orig: 138, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_stand
+  rotate: false
+  xy: 1593, 883
+  size: 133, 184
+  orig: 133, 184
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_swim1
+  rotate: false
+  xy: 1300, 1069
+  size: 138, 194
+  orig: 138, 194
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Beige/alienBiege_walk1
+  rotate: false
+  xy: 686, 563
+  size: 134, 190
+  orig: 134, 190
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_climb1
+  rotate: false
+  xy: 406, 55
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_climb2
+  rotate: false
+  xy: 540, 56
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_duck
+  rotate: false
+  xy: 1100, 483
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_front
+  rotate: false
+  xy: 1059, 821
+  size: 131, 188
+  orig: 131, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_hit
+  rotate: false
+  xy: 132, 375
+  size: 138, 188
+  orig: 138, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_jump
+  rotate: false
+  xy: 2, 50
+  size: 135, 191
+  orig: 135, 191
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_stand
+  rotate: false
+  xy: 1728, 889
+  size: 133, 184
+  orig: 133, 184
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_swim1
+  rotate: false
+  xy: 1808, 1388
+  size: 138, 194
+  orig: 138, 194
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Blue/alienBlue_walk1
+  rotate: false
+  xy: 412, 370
+  size: 134, 190
+  orig: 134, 190
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_climb1
+  rotate: false
+  xy: 925, 821
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_climb2
+  rotate: false
+  xy: 958, 631
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_duck
+  rotate: false
+  xy: 1515, 554
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_front
+  rotate: false
+  xy: 1092, 631
+  size: 131, 188
+  orig: 131, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_hit
+  rotate: false
+  xy: 272, 565
+  size: 138, 188
+  orig: 138, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_jump
+  rotate: false
+  xy: 412, 562
+  size: 135, 191
+  orig: 135, 191
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_stand
+  rotate: false
+  xy: 1225, 692
+  size: 133, 184
+  orig: 133, 184
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_swim1
+  rotate: false
+  xy: 1440, 1069
+  size: 138, 194
+  orig: 138, 194
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_walk1
+  rotate: false
+  xy: 548, 370
+  size: 134, 190
+  orig: 134, 190
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Green/alienGreen_walk2
+  rotate: false
+  xy: 1158, 1068
+  size: 140, 195
+  orig: 140, 195
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_climb1
+  rotate: false
+  xy: 1192, 878
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_climb2
+  rotate: false
+  xy: 1326, 879
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_duck
+  rotate: false
+  xy: 1657, 559
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_front
+  rotate: false
+  xy: 1460, 879
+  size: 131, 188
+  orig: 131, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_hit
+  rotate: false
+  xy: 272, 375
+  size: 138, 188
+  orig: 138, 188
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_jump
+  rotate: false
+  xy: 549, 562
+  size: 135, 191
+  orig: 135, 191
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_stand
+  rotate: false
+  xy: 1360, 693
+  size: 133, 184
+  orig: 133, 184
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_swim1
+  rotate: false
+  xy: 1580, 1069
+  size: 138, 194
+  orig: 138, 194
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_walk1
+  rotate: false
+  xy: 822, 563
+  size: 134, 190
+  orig: 134, 190
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Pink/alienPink_walk2
+  rotate: false
+  xy: 1808, 1584
+  size: 140, 195
+  orig: 140, 195
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_climb1
+  rotate: false
+  xy: 1854, 1128
+  size: 132, 168
+  orig: 132, 168
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_climb2
+  rotate: false
+  xy: 1863, 958
+  size: 132, 168
+  orig: 132, 168
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_duck
+  rotate: false
+  xy: 1799, 569
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_front
+  rotate: false
+  xy: 1242, 522
+  size: 131, 168
+  orig: 131, 168
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_hit
+  rotate: false
+  xy: 1375, 523
+  size: 138, 168
+  orig: 138, 168
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_stand
+  rotate: false
+  xy: 1913, 792
+  size: 133, 164
+  orig: 133, 164
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_swim1
+  rotate: false
+  xy: 1637, 707
+  size: 138, 174
+  orig: 138, 174
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_walk1
+  rotate: false
+  xy: 1777, 717
+  size: 134, 170
+  orig: 134, 170
+  offset: 0, 0
+  index: -1
+gfx/Players/Variable sizes/Yellow/alienYellow_walk2
+  rotate: false
+  xy: 1495, 702
+  size: 140, 175
+  orig: 140, 175
+  offset: 0, 0
+  index: -1
+gfx/Tiles/bomb
+  rotate: false
+  xy: 1905, 439
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/bombWhite
+  rotate: false
+  xy: 1905, 309
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCoin
+  rotate: false
+  xy: 1775, 299
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCoin_boxed
+  rotate: false
+  xy: 1905, 179
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCoin_disabled
+  rotate: false
+  xy: 1372, 392
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCoin_disabled_boxed
+  rotate: false
+  xy: 1502, 294
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCrate
+  rotate: false
+  xy: 1632, 294
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCrate_double
+  rotate: false
+  xy: 674, 133
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCrate_single
+  rotate: false
+  xy: 674, 3
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxCrate_warning
+  rotate: false
+  xy: 684, 432
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxExplosive
+  rotate: false
+  xy: 814, 433
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxExplosive_disabled
+  rotate: false
+  xy: 694, 302
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxExplosive_used
+  rotate: false
+  xy: 824, 303
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxItem
+  rotate: false
+  xy: 954, 353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxItem_boxed
+  rotate: false
+  xy: 1084, 353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxItem_disabled
+  rotate: false
+  xy: 954, 223
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/boxItem_disabled_boxed
+  rotate: false
+  xy: 1084, 223
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/brickBrown
+  rotate: false
+  xy: 1214, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/brickGrey
+  rotate: false
+  xy: 1344, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/bridgeA
+  rotate: false
+  xy: 824, 173
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/bridgeB
+  rotate: false
+  xy: 804, 43
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/bush
+  rotate: false
+  xy: 954, 93
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/cactus
+  rotate: false
+  xy: 1084, 93
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/chain
+  rotate: false
+  xy: 1214, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/bgElems/Flat/fence
+  rotate: false
+  xy: 1808, 1298
+  size: 128, 88
+  orig: 128, 88
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree13
+  rotate: false
+  xy: 1996, 611
+  size: 48, 105
+  orig: 48, 105
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree14
+  rotate: false
+  xy: 644, 263
+  size: 48, 105
+  orig: 48, 105
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree15
+  rotate: false
+  xy: 1994, 72
+  size: 48, 105
+  orig: 48, 105
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree17
+  rotate: false
+  xy: 1951, 1893
+  size: 53, 144
+  orig: 53, 144
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree19
+  rotate: false
+  xy: 1941, 572
+  size: 53, 144
+  orig: 53, 144
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree32
+  rotate: false
+  xy: 2, 759
+  size: 141, 252
+  orig: 141, 252
+  offset: 0, 0
+  index: -1
+gfx/bgElems/tree33
+  rotate: false
+  xy: 1028, 1785
+  size: 141, 252
+  orig: 141, 252
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserPink2
+  rotate: false
+  xy: 1951, 1791
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/laserYellow2
+  rotate: false
+  xy: 1948, 1482
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBeige
+  rotate: false
+  xy: 934, 24
+  size: 124, 67
+  orig: 124, 67
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBeige_damage1
+  rotate: false
+  xy: 1060, 24
+  size: 124, 67
+  orig: 124, 67
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBeige_manned
+  rotate: false
+  xy: 518, 246
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipGreen_manned
+  rotate: false
+  xy: 392, 245
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipPink_damage1
+  rotate: false
+  xy: 1913, 718
+  size: 124, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+
+textures4.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/blue_shroom
+  rotate: false
+  xy: 2, 998
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishBlue
+  rotate: false
+  xy: 1288, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishBlue_dead
+  rotate: false
+  xy: 1418, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishBlue_fall
+  rotate: false
+  xy: 2, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishGreen
+  rotate: false
+  xy: 132, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishGreen_dead
+  rotate: false
+  xy: 262, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishGreen_move
+  rotate: false
+  xy: 392, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishPink
+  rotate: false
+  xy: 522, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishPink_dead
+  rotate: false
+  xy: 1028, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fishPink_move
+  rotate: false
+  xy: 1158, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fly
+  rotate: false
+  xy: 1418, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fly_dead
+  rotate: false
+  xy: 1548, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/fly_move
+  rotate: false
+  xy: 1678, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/frog
+  rotate: false
+  xy: 2, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/frog_dead
+  rotate: false
+  xy: 132, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/frog_move
+  rotate: false
+  xy: 262, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/ladybug
+  rotate: false
+  xy: 1804, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/ladybug_fly
+  rotate: false
+  xy: 1042, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/ladybug_move
+  rotate: false
+  xy: 1042, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/mouse
+  rotate: false
+  xy: 1302, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/mouse_dead
+  rotate: false
+  xy: 1432, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/mouse_move
+  rotate: false
+  xy: 1562, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCorner_left
+  rotate: false
+  xy: 2, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtCorner_right
+  rotate: false
+  xy: 1028, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtHalf
+  rotate: false
+  xy: 2, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtHalf_left
+  rotate: false
+  xy: 132, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtHalf_mid
+  rotate: false
+  xy: 1028, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtHalf_right
+  rotate: false
+  xy: 1158, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtHill_left
+  rotate: false
+  xy: 2, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtHill_right
+  rotate: false
+  xy: 132, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtLeft
+  rotate: false
+  xy: 262, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtMid
+  rotate: false
+  xy: 1028, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Dirt/dirtRight
+  rotate: false
+  xy: 1158, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grass
+  rotate: false
+  xy: 1028, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCenter
+  rotate: false
+  xy: 1288, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCenter_round
+  rotate: false
+  xy: 1418, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCliffAlt_left
+  rotate: false
+  xy: 1548, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCliffAlt_right
+  rotate: false
+  xy: 1678, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCliff_left
+  rotate: false
+  xy: 1808, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCliff_right
+  rotate: false
+  xy: 132, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCorner_left
+  rotate: false
+  xy: 262, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassCorner_right
+  rotate: false
+  xy: 392, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassHalf
+  rotate: false
+  xy: 522, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassHalf_left
+  rotate: false
+  xy: 652, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassHalf_mid
+  rotate: false
+  xy: 782, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassHalf_right
+  rotate: false
+  xy: 1158, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassHill_left
+  rotate: false
+  xy: 1288, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassHill_right
+  rotate: false
+  xy: 1418, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassLeft
+  rotate: false
+  xy: 1548, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassMid
+  rotate: false
+  xy: 1678, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Grass/grassRight
+  rotate: false
+  xy: 1808, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planet
+  rotate: false
+  xy: 1302, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCenter
+  rotate: false
+  xy: 1432, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCenter_rounded
+  rotate: false
+  xy: 1562, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCliffAlt_left
+  rotate: false
+  xy: 1692, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCliffAlt_right
+  rotate: false
+  xy: 1172, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCliff_left
+  rotate: false
+  xy: 1302, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCliff_right
+  rotate: false
+  xy: 1432, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCorner_left
+  rotate: false
+  xy: 1562, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetCorner_right
+  rotate: false
+  xy: 1692, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetHalf
+  rotate: false
+  xy: 1302, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetHalf_left
+  rotate: false
+  xy: 1432, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetHalf_mid
+  rotate: false
+  xy: 1562, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetHalf_right
+  rotate: false
+  xy: 1692, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetHill_left
+  rotate: false
+  xy: 1432, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetHill_right
+  rotate: false
+  xy: 1562, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetLeft
+  rotate: false
+  xy: 1692, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetMid
+  rotate: false
+  xy: 1562, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Planet/planetRight
+  rotate: false
+  xy: 1692, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sand
+  rotate: false
+  xy: 1172, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCenter
+  rotate: false
+  xy: 1302, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCenter_rounded
+  rotate: false
+  xy: 1432, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCliffAlt_left
+  rotate: false
+  xy: 1562, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCliffAlt_right
+  rotate: false
+  xy: 1692, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCliff_left
+  rotate: false
+  xy: 1822, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCliff_right
+  rotate: false
+  xy: 1822, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCorner_leftg
+  rotate: false
+  xy: 1822, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandCorner_right
+  rotate: false
+  xy: 1822, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandHalf
+  rotate: false
+  xy: 1822, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandHalf_left
+  rotate: false
+  xy: 1822, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandHalf_mid
+  rotate: false
+  xy: 1822, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud0
+  rotate: false
+  xy: 262, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud1
+  rotate: false
+  xy: 392, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud2
+  rotate: false
+  xy: 522, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud3
+  rotate: false
+  xy: 652, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud4
+  rotate: false
+  xy: 782, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud5
+  rotate: false
+  xy: 1288, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud6
+  rotate: false
+  xy: 1418, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud7
+  rotate: false
+  xy: 1548, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud8
+  rotate: false
+  xy: 1678, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hud9
+  rotate: false
+  xy: 1808, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudCoin
+  rotate: false
+  xy: 392, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudHeart_empty
+  rotate: false
+  xy: 522, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudHeart_full
+  rotate: false
+  xy: 652, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudHeart_half
+  rotate: false
+  xy: 782, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_blue
+  rotate: false
+  xy: 1418, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_blue_empty
+  rotate: false
+  xy: 1548, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_green
+  rotate: false
+  xy: 1678, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_green_empty
+  rotate: false
+  xy: 1808, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_red
+  rotate: false
+  xy: 522, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_red_empty
+  rotate: false
+  xy: 652, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_yellow
+  rotate: false
+  xy: 782, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudJewel_yellow_empty
+  rotate: false
+  xy: 1548, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_blue
+  rotate: false
+  xy: 1678, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_blue_empty
+  rotate: false
+  xy: 1808, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_green
+  rotate: false
+  xy: 652, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_green_empty
+  rotate: false
+  xy: 782, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_red
+  rotate: false
+  xy: 1678, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_red_empty
+  rotate: false
+  xy: 1808, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_yellow
+  rotate: false
+  xy: 782, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudKey_yellow_empty
+  rotate: false
+  xy: 1808, 1114
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudPlayer_beige
+  rotate: false
+  xy: 912, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudPlayer_blue
+  rotate: false
+  xy: 912, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudPlayer_green
+  rotate: false
+  xy: 912, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudPlayer_pink
+  rotate: false
+  xy: 912, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudPlayer_yellow
+  rotate: false
+  xy: 912, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/HUD/hudX
+  rotate: false
+  xy: 912, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagBlue1
+  rotate: false
+  xy: 1288, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagBlue2
+  rotate: false
+  xy: 1418, 1764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagBlue_down
+  rotate: false
+  xy: 1548, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagGreen1
+  rotate: false
+  xy: 2, 218
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagGreen2
+  rotate: false
+  xy: 132, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagGreen_down
+  rotate: false
+  xy: 262, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagRed1
+  rotate: false
+  xy: 392, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagRed2
+  rotate: false
+  xy: 522, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagRed_down
+  rotate: false
+  xy: 652, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagYellow1
+  rotate: false
+  xy: 1028, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagYellow2
+  rotate: false
+  xy: 1158, 1374
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/flagYellow_down
+  rotate: false
+  xy: 1288, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/gemBlue
+  rotate: false
+  xy: 392, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/gemGreen
+  rotate: false
+  xy: 522, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/gemRed
+  rotate: false
+  xy: 652, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/gemYellow
+  rotate: false
+  xy: 782, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/keyBlue
+  rotate: false
+  xy: 912, 88
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/keyGreen
+  rotate: false
+  xy: 1154, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/keyRed
+  rotate: false
+  xy: 1284, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/keyYellow
+  rotate: false
+  xy: 1414, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_009
+  rotate: false
+  xy: 1938, 1952
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_010
+  rotate: false
+  xy: 1938, 1880
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_011
+  rotate: false
+  xy: 1938, 1808
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_012
+  rotate: false
+  xy: 1938, 1736
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_013
+  rotate: false
+  xy: 1938, 1664
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_014
+  rotate: false
+  xy: 1938, 1592
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_015
+  rotate: false
+  xy: 1938, 1520
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_016
+  rotate: false
+  xy: 1938, 1448
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_017
+  rotate: false
+  xy: 1938, 1376
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_018
+  rotate: false
+  xy: 1938, 1304
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_019
+  rotate: false
+  xy: 1938, 1232
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_020
+  rotate: false
+  xy: 1938, 1160
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_021
+  rotate: false
+  xy: 758, 16
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_022
+  rotate: false
+  xy: 830, 16
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_023
+  rotate: false
+  xy: 902, 16
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_024
+  rotate: false
+  xy: 1938, 1088
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_025
+  rotate: false
+  xy: 1934, 1016
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_028
+  rotate: false
+  xy: 1934, 1016
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_026
+  rotate: false
+  xy: 1952, 944
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_027
+  rotate: false
+  xy: 1952, 872
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_030
+  rotate: false
+  xy: 1952, 872
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_029
+  rotate: false
+  xy: 1952, 800
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_031
+  rotate: false
+  xy: 1952, 728
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_032
+  rotate: false
+  xy: 1952, 656
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_033
+  rotate: false
+  xy: 1952, 584
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_034
+  rotate: false
+  xy: 1952, 512
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_035
+  rotate: false
+  xy: 1952, 440
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_036
+  rotate: false
+  xy: 1952, 368
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_037
+  rotate: false
+  xy: 1952, 296
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_038
+  rotate: false
+  xy: 1952, 224
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_039
+  rotate: false
+  xy: 1952, 152
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_040
+  rotate: false
+  xy: 1952, 80
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_041
+  rotate: false
+  xy: 1952, 8
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_042
+  rotate: false
+  xy: 974, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_043
+  rotate: false
+  xy: 1046, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_044
+  rotate: false
+  xy: 1118, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_045
+  rotate: false
+  xy: 1190, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_046
+  rotate: false
+  xy: 1262, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_047
+  rotate: false
+  xy: 1334, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_048
+  rotate: false
+  xy: 1406, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_049
+  rotate: false
+  xy: 1478, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_050
+  rotate: false
+  xy: 1550, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_051
+  rotate: false
+  xy: 1622, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_052
+  rotate: false
+  xy: 1694, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_053
+  rotate: false
+  xy: 1766, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_054
+  rotate: false
+  xy: 1838, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Particles/fireball
+  rotate: false
+  xy: 1158, 1634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/doorClosed_mid
+  rotate: false
+  xy: 1288, 1894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/doorClosed_top
+  rotate: false
+  xy: 2, 478
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/doorOpen_mid
+  rotate: false
+  xy: 132, 608
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/doorOpen_top
+  rotate: false
+  xy: 262, 738
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/fence
+  rotate: false
+  xy: 392, 868
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/fenceBroken
+  rotate: false
+  xy: 1028, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/grass
+  rotate: false
+  xy: 1158, 1244
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/ladderMid
+  rotate: false
+  xy: 1544, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/ladderTop
+  rotate: false
+  xy: 1674, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lava
+  rotate: false
+  xy: 1172, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lavaTop_high
+  rotate: false
+  xy: 1042, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lavaTop_low
+  rotate: false
+  xy: 1172, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/leverLeft
+  rotate: false
+  xy: 1302, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/leverMid
+  rotate: false
+  xy: 1042, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/leverRight
+  rotate: false
+  xy: 1172, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lockBlue
+  rotate: false
+  xy: 1302, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lockGreen
+  rotate: false
+  xy: 1432, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lockRed
+  rotate: false
+  xy: 1042, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/lockYellow
+  rotate: false
+  xy: 1172, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/mushroomBrown
+  rotate: false
+  xy: 1042, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/mushroomRed
+  rotate: false
+  xy: 1172, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/plantPurple
+  rotate: false
+  xy: 1692, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/rock
+  rotate: false
+  xy: 1042, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipBeige_damage2
+  rotate: false
+  xy: 254, 19
+  size: 124, 67
+  orig: 124, 67
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipGreen
+  rotate: false
+  xy: 2, 18
+  size: 124, 68
+  orig: 124, 68
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipGreen_damage1
+  rotate: false
+  xy: 1028, 1044
+  size: 124, 68
+  orig: 124, 68
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipGreen_damage2
+  rotate: false
+  xy: 128, 18
+  size: 124, 68
+  orig: 124, 68
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipYellow
+  rotate: false
+  xy: 380, 24
+  size: 124, 62
+  orig: 124, 62
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipYellow_damage1
+  rotate: false
+  xy: 506, 24
+  size: 124, 62
+  orig: 124, 62
+  offset: 0, 0
+  index: -1
+gfx/ufos/shipYellow_damage2
+  rotate: false
+  xy: 632, 24
+  size: 124, 62
+  orig: 124, 62
+  offset: 0, 0
+  index: -1
+
+textures5.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/colored_desert
+  rotate: false
+  xy: 2, 984
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+gfx/Enemies/saw
+  rotate: false
+  xy: 2, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/sawHalf
+  rotate: false
+  xy: 132, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/sawHalf_dead
+  rotate: false
+  xy: 262, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/sawHalf_move
+  rotate: false
+  xy: 1028, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/saw_dead
+  rotate: false
+  xy: 1158, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/saw_move
+  rotate: false
+  xy: 1288, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlock
+  rotate: false
+  xy: 1028, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlock_dead
+  rotate: false
+  xy: 1158, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlock_move
+  rotate: false
+  xy: 1288, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlue
+  rotate: false
+  xy: 1418, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlue_dead
+  rotate: false
+  xy: 2, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlue_hit
+  rotate: false
+  xy: 132, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeBlue_move
+  rotate: false
+  xy: 262, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeGreen
+  rotate: false
+  xy: 392, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeGreen_dead
+  rotate: false
+  xy: 522, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeGreen_hit
+  rotate: false
+  xy: 1028, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimeGreen_move
+  rotate: false
+  xy: 1158, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimePurple
+  rotate: false
+  xy: 1288, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimePurple_dead
+  rotate: false
+  xy: 1418, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimePurple_hit
+  rotate: false
+  xy: 1548, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/slimePurple_move
+  rotate: false
+  xy: 2, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/snail
+  rotate: false
+  xy: 132, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/snail_move
+  rotate: false
+  xy: 262, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/snail_shell
+  rotate: false
+  xy: 392, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/wormGreen
+  rotate: false
+  xy: 652, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/wormGreen_dead
+  rotate: false
+  xy: 782, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/wormGreen_move
+  rotate: false
+  xy: 1678, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/wormPink
+  rotate: false
+  xy: 1808, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/wormPink_dead
+  rotate: false
+  xy: 782, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Enemies/wormPink_move
+  rotate: false
+  xy: 1808, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandHalf_right
+  rotate: false
+  xy: 2, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandHill_left
+  rotate: false
+  xy: 1028, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandHill_right
+  rotate: false
+  xy: 2, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandLeft
+  rotate: false
+  xy: 132, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandMid
+  rotate: false
+  xy: 1028, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Sand/sandRight
+  rotate: false
+  xy: 1158, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snow
+  rotate: false
+  xy: 522, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCenter
+  rotate: false
+  xy: 1028, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCenter_rounded
+  rotate: false
+  xy: 1158, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCliffAlt_left
+  rotate: false
+  xy: 1288, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCliffAlt_right
+  rotate: false
+  xy: 1418, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCliff_left
+  rotate: false
+  xy: 1548, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCliff_right
+  rotate: false
+  xy: 1678, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCorner_left
+  rotate: false
+  xy: 2, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowCorner_right
+  rotate: false
+  xy: 132, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowHalf
+  rotate: false
+  xy: 262, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowHalf_left
+  rotate: false
+  xy: 392, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowHalf_mid
+  rotate: false
+  xy: 522, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowHalf_right
+  rotate: false
+  xy: 652, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowHill_left
+  rotate: false
+  xy: 782, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowHill_right
+  rotate: false
+  xy: 1028, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowLeft
+  rotate: false
+  xy: 1158, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowMid
+  rotate: false
+  xy: 1288, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Snow/snowRight
+  rotate: false
+  xy: 1418, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stone
+  rotate: false
+  xy: 262, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCenter
+  rotate: false
+  xy: 392, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCenter_rounded
+  rotate: false
+  xy: 522, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCliffAlt_left
+  rotate: false
+  xy: 652, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCliffAlt_right
+  rotate: false
+  xy: 782, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCliff_left
+  rotate: false
+  xy: 1158, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCliff_right
+  rotate: false
+  xy: 1288, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCorner_left
+  rotate: false
+  xy: 1418, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneCorner_right
+  rotate: false
+  xy: 1548, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneHalf
+  rotate: false
+  xy: 1678, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneHalf_left
+  rotate: false
+  xy: 1808, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneHalf_mid
+  rotate: false
+  xy: 262, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneHalf_right
+  rotate: false
+  xy: 392, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneHill_left
+  rotate: false
+  xy: 522, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneHill_right
+  rotate: false
+  xy: 652, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneLeft
+  rotate: false
+  xy: 782, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneMid
+  rotate: false
+  xy: 1288, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Ground/Stone/stoneRight
+  rotate: false
+  xy: 1418, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Items/star
+  rotate: false
+  xy: 132, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_055
+  rotate: false
+  xy: 2, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_056
+  rotate: false
+  xy: 912, 912
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_057
+  rotate: false
+  xy: 1028, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_058
+  rotate: false
+  xy: 1938, 1938
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_059
+  rotate: false
+  xy: 74, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_060
+  rotate: false
+  xy: 912, 840
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_061
+  rotate: false
+  xy: 1100, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_062
+  rotate: false
+  xy: 1938, 1866
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_063
+  rotate: false
+  xy: 146, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_064
+  rotate: false
+  xy: 912, 768
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_065
+  rotate: false
+  xy: 1172, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_112
+  rotate: false
+  xy: 1172, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_066
+  rotate: false
+  xy: 1938, 1794
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_067
+  rotate: false
+  xy: 218, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_068
+  rotate: false
+  xy: 912, 696
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_069
+  rotate: false
+  xy: 1244, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_070
+  rotate: false
+  xy: 1938, 1722
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_071
+  rotate: false
+  xy: 290, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_072
+  rotate: false
+  xy: 912, 624
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_073
+  rotate: false
+  xy: 1316, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_074
+  rotate: false
+  xy: 1938, 1650
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_075
+  rotate: false
+  xy: 362, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_076
+  rotate: false
+  xy: 912, 552
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_077
+  rotate: false
+  xy: 1388, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_078
+  rotate: false
+  xy: 1938, 1578
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_079
+  rotate: false
+  xy: 434, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_080
+  rotate: false
+  xy: 912, 480
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_081
+  rotate: false
+  xy: 1460, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_082
+  rotate: false
+  xy: 1938, 1506
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_083
+  rotate: false
+  xy: 506, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_084
+  rotate: false
+  xy: 912, 408
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_085
+  rotate: false
+  xy: 1532, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_086
+  rotate: false
+  xy: 1938, 1434
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_087
+  rotate: false
+  xy: 578, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_088
+  rotate: false
+  xy: 912, 336
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_089
+  rotate: false
+  xy: 1604, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_090
+  rotate: false
+  xy: 1938, 1362
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_091
+  rotate: false
+  xy: 650, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_092
+  rotate: false
+  xy: 912, 264
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_093
+  rotate: false
+  xy: 1676, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_094
+  rotate: false
+  xy: 1938, 1290
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_095
+  rotate: false
+  xy: 722, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_096
+  rotate: false
+  xy: 912, 192
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_097
+  rotate: false
+  xy: 1748, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_098
+  rotate: false
+  xy: 1938, 1218
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_099
+  rotate: false
+  xy: 794, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_100
+  rotate: false
+  xy: 912, 120
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_101
+  rotate: false
+  xy: 1820, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_102
+  rotate: false
+  xy: 1938, 1146
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_103
+  rotate: false
+  xy: 866, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_104
+  rotate: false
+  xy: 1892, 1028
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_105
+  rotate: false
+  xy: 984, 912
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_106
+  rotate: false
+  xy: 984, 840
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_107
+  rotate: false
+  xy: 984, 768
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_108
+  rotate: false
+  xy: 984, 696
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_109
+  rotate: false
+  xy: 984, 624
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_110
+  rotate: false
+  xy: 984, 552
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_111
+  rotate: false
+  xy: 984, 480
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_113
+  rotate: false
+  xy: 984, 408
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_114
+  rotate: false
+  xy: 984, 336
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_115
+  rotate: false
+  xy: 984, 264
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_116
+  rotate: false
+  xy: 984, 192
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_117
+  rotate: false
+  xy: 984, 120
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_118
+  rotate: false
+  xy: 1056, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_119
+  rotate: false
+  xy: 1056, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_120
+  rotate: false
+  xy: 1128, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_121
+  rotate: false
+  xy: 1056, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_122
+  rotate: false
+  xy: 1128, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_123
+  rotate: false
+  xy: 1200, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_124
+  rotate: false
+  xy: 1056, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_125
+  rotate: false
+  xy: 1128, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_126
+  rotate: false
+  xy: 1200, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_127
+  rotate: false
+  xy: 1272, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_128
+  rotate: false
+  xy: 1056, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_129
+  rotate: false
+  xy: 1128, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_130
+  rotate: false
+  xy: 1200, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_131
+  rotate: false
+  xy: 1272, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_132
+  rotate: false
+  xy: 1344, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_133
+  rotate: false
+  xy: 1056, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_134
+  rotate: false
+  xy: 1128, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_135
+  rotate: false
+  xy: 1200, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_136
+  rotate: false
+  xy: 1272, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_137
+  rotate: false
+  xy: 1344, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_138
+  rotate: false
+  xy: 1416, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_139
+  rotate: false
+  xy: 1056, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_140
+  rotate: false
+  xy: 1128, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_141
+  rotate: false
+  xy: 1200, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_142
+  rotate: false
+  xy: 1272, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_143
+  rotate: false
+  xy: 1344, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_144
+  rotate: false
+  xy: 1416, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_145
+  rotate: false
+  xy: 1488, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_146
+  rotate: false
+  xy: 1056, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_147
+  rotate: false
+  xy: 1128, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_148
+  rotate: false
+  xy: 1200, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_149
+  rotate: false
+  xy: 1272, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_150
+  rotate: false
+  xy: 1344, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_151
+  rotate: false
+  xy: 1416, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_152
+  rotate: false
+  xy: 1488, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_153
+  rotate: false
+  xy: 1560, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_154
+  rotate: false
+  xy: 1056, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_155
+  rotate: false
+  xy: 1128, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_156
+  rotate: false
+  xy: 1200, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_157
+  rotate: false
+  xy: 1272, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_158
+  rotate: false
+  xy: 1344, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_159
+  rotate: false
+  xy: 1416, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_160
+  rotate: false
+  xy: 1488, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_161
+  rotate: false
+  xy: 1560, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_162
+  rotate: false
+  xy: 1632, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_163
+  rotate: false
+  xy: 1056, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_164
+  rotate: false
+  xy: 1128, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_165
+  rotate: false
+  xy: 1200, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_166
+  rotate: false
+  xy: 1272, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_167
+  rotate: false
+  xy: 1344, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_168
+  rotate: false
+  xy: 1416, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_169
+  rotate: false
+  xy: 1488, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_170
+  rotate: false
+  xy: 1560, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_171
+  rotate: false
+  xy: 1632, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_172
+  rotate: false
+  xy: 1704, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_173
+  rotate: false
+  xy: 1056, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_174
+  rotate: false
+  xy: 1128, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_175
+  rotate: false
+  xy: 1200, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_176
+  rotate: false
+  xy: 1272, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_179
+  rotate: false
+  xy: 1272, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_177
+  rotate: false
+  xy: 1344, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_178
+  rotate: false
+  xy: 1416, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_180
+  rotate: false
+  xy: 1488, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_181
+  rotate: false
+  xy: 1560, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_182
+  rotate: false
+  xy: 1632, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_183
+  rotate: false
+  xy: 1704, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_184
+  rotate: false
+  xy: 1776, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_185
+  rotate: false
+  xy: 1056, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_186
+  rotate: false
+  xy: 1128, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_187
+  rotate: false
+  xy: 1200, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_188
+  rotate: false
+  xy: 1272, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_189
+  rotate: false
+  xy: 1344, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_190
+  rotate: false
+  xy: 1416, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_191
+  rotate: false
+  xy: 1488, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_192
+  rotate: false
+  xy: 1560, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_193
+  rotate: false
+  xy: 1632, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_194
+  rotate: false
+  xy: 1704, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_195
+  rotate: false
+  xy: 1776, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_196
+  rotate: false
+  xy: 1848, 956
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_197
+  rotate: false
+  xy: 1128, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_198
+  rotate: false
+  xy: 1200, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_199
+  rotate: false
+  xy: 1272, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_200
+  rotate: false
+  xy: 1344, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_201
+  rotate: false
+  xy: 1416, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_202
+  rotate: false
+  xy: 1488, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_203
+  rotate: false
+  xy: 1560, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_204
+  rotate: false
+  xy: 1632, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_205
+  rotate: false
+  xy: 1704, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_206
+  rotate: false
+  xy: 1776, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_207
+  rotate: false
+  xy: 1848, 884
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_208
+  rotate: false
+  xy: 1200, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_209
+  rotate: false
+  xy: 1272, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_210
+  rotate: false
+  xy: 1344, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_211
+  rotate: false
+  xy: 1416, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_212
+  rotate: false
+  xy: 1488, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_213
+  rotate: false
+  xy: 1560, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_214
+  rotate: false
+  xy: 1632, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_215
+  rotate: false
+  xy: 1704, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_216
+  rotate: false
+  xy: 1776, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_217
+  rotate: false
+  xy: 1848, 812
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_218
+  rotate: false
+  xy: 1272, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_219
+  rotate: false
+  xy: 1344, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_220
+  rotate: false
+  xy: 1416, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_221
+  rotate: false
+  xy: 1488, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_222
+  rotate: false
+  xy: 1560, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_225
+  rotate: false
+  xy: 1560, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_223
+  rotate: false
+  xy: 1632, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_224
+  rotate: false
+  xy: 1704, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_226
+  rotate: false
+  xy: 1776, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_227
+  rotate: false
+  xy: 1848, 740
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_228
+  rotate: false
+  xy: 1344, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_229
+  rotate: false
+  xy: 1416, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_230
+  rotate: false
+  xy: 1488, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_231
+  rotate: false
+  xy: 1560, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_232
+  rotate: false
+  xy: 1632, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_233
+  rotate: false
+  xy: 1704, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_234
+  rotate: false
+  xy: 1776, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_235
+  rotate: false
+  xy: 1848, 668
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_236
+  rotate: false
+  xy: 1416, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_237
+  rotate: false
+  xy: 1488, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_238
+  rotate: false
+  xy: 1560, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_239
+  rotate: false
+  xy: 1632, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_240
+  rotate: false
+  xy: 1704, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_241
+  rotate: false
+  xy: 1776, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_242
+  rotate: false
+  xy: 1848, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_245
+  rotate: false
+  xy: 1848, 596
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_243
+  rotate: false
+  xy: 1488, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_244
+  rotate: false
+  xy: 1560, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_246
+  rotate: false
+  xy: 1632, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_247
+  rotate: false
+  xy: 1704, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_248
+  rotate: false
+  xy: 1776, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_249
+  rotate: false
+  xy: 1848, 524
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_250
+  rotate: false
+  xy: 1560, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_251
+  rotate: false
+  xy: 1632, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_252
+  rotate: false
+  xy: 1704, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_253
+  rotate: false
+  xy: 1776, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_254
+  rotate: false
+  xy: 1848, 452
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_255
+  rotate: false
+  xy: 1632, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_256
+  rotate: false
+  xy: 1704, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_257
+  rotate: false
+  xy: 1776, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_258
+  rotate: false
+  xy: 1848, 380
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_259
+  rotate: false
+  xy: 1704, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_260
+  rotate: false
+  xy: 1776, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_261
+  rotate: false
+  xy: 1848, 308
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_262
+  rotate: false
+  xy: 1776, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_263
+  rotate: false
+  xy: 1848, 236
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_264
+  rotate: false
+  xy: 1848, 164
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_265
+  rotate: false
+  xy: 1056, 92
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_266
+  rotate: false
+  xy: 1128, 92
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_267
+  rotate: false
+  xy: 1200, 92
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Medeival/medievalTile_268
+  rotate: false
+  xy: 1272, 92
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+gfx/Tiles/sign
+  rotate: false
+  xy: 2, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/signExit
+  rotate: false
+  xy: 132, 594
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/signLeft
+  rotate: false
+  xy: 262, 724
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/signRight
+  rotate: false
+  xy: 392, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/snow
+  rotate: false
+  xy: 652, 854
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/spikes
+  rotate: false
+  xy: 1548, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/spring
+  rotate: false
+  xy: 1678, 1750
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/sprung
+  rotate: false
+  xy: 1808, 1880
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchBlue
+  rotate: false
+  xy: 1548, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchBlue_pressed
+  rotate: false
+  xy: 1678, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchGreen
+  rotate: false
+  xy: 1808, 1620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchGreen_pressed
+  rotate: false
+  xy: 392, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchRed
+  rotate: false
+  xy: 522, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchRed_pressed
+  rotate: false
+  xy: 652, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchYellow
+  rotate: false
+  xy: 782, 464
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/switchYellow_pressed
+  rotate: false
+  xy: 1418, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/torch1
+  rotate: false
+  xy: 1548, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/torch2
+  rotate: false
+  xy: 1678, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/torchOff
+  rotate: false
+  xy: 1808, 1490
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/water
+  rotate: false
+  xy: 522, 74
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/waterTop_high
+  rotate: false
+  xy: 652, 204
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/waterTop_low
+  rotate: false
+  xy: 782, 334
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/weight
+  rotate: false
+  xy: 1548, 1100
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/weightAttached
+  rotate: false
+  xy: 1678, 1230
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gfx/Tiles/window
+  rotate: false
+  xy: 1808, 1360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+
+textures6.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/colored_grass
+  rotate: false
+  xy: 2, 2
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+textures7.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/colored_land
+  rotate: false
+  xy: 2, 2
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+textures8.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Backgrounds/colored_shroom
+  rotate: false
+  xy: 2, 2
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+textures9.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/bgElems/Flat/sky
+  rotate: false
+  xy: 2, 2
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1

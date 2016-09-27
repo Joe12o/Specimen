@@ -1,0 +1,2417 @@
+{
+  "versionCode": 2,
+  "path": "scene/level.scene",
+  "width": 128.0,
+  "height": 72.0,
+  "pixelsPerUnit": 10.0,
+  "viewport": "STRETCH",
+  "physicsSettings": {
+    "physicsEnabled": true,
+    "gravityX": 0.0,
+    "gravityY": -90.0,
+    "allowSleep": true
+  },
+  "variables": {
+    "variables": []
+  },
+  "layers": [
+    {
+      "name": "Background",
+      "id": 0,
+      "locked": false,
+      "visible": true,
+      "cordsSystem": "WORLD",
+      "@class": "EditorLayer"
+    },
+    {
+      "name": "Foreground",
+      "id": 1,
+      "locked": false,
+      "visible": true,
+      "cordsSystem": "WORLD",
+      "@class": "EditorLayer"
+    },
+    {
+      "name": "Player",
+      "id": 2,
+      "locked": false,
+      "visible": true,
+      "cordsSystem": "WORLD",
+      "@class": "EditorLayer"
+    }
+  ],
+  "activeLayerId": 0,
+  "groupIds": [],
+  "schemes": [
+    {
+      "components": [
+        {
+          "x": 109.691246,
+          "y": -6.8503094,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "91c94491-33f7-4304-a7bb-295f9afbae31",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 122.48873,
+          "y": -6.8503075,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "36e0469f-143e-4745-8e3a-4fe6da0b379b",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 135.28616,
+          "y": -6.850315,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "059205b4-a467-44dd-8dd5-54cd5ccf99dd",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 148.08362,
+          "y": -6.850315,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "eea6e4ec-f545-4f86-8230-68382d2728af",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 160.88109,
+          "y": -6.8503017,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "5161cf2a-1d8e-4113-8834-661cf02a50b2",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 84.185394,
+          "y": 0.9185562,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "72dc119d-a33b-48de-ac0d-832e0d03a452",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 30.627283,
+          "y": 1.0751572,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "f184e629-1acc-4229-9b78-b81fafa04174",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 56.936527,
+          "y": 1.7015657,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "4936ff41-a190-48b8-8fcd-5ad6bb4a2444",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 112.21725,
+          "y": 0.7619524,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "d9a2fa58-360c-40c4-a3de-81f3a87f4786",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 97.96642,
+          "y": 1.8581715,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "5eb6916e-6785-44ab-bc1b-9ae064e4c602",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 131.94919,
+          "y": 1.3883648,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "506a1ba7-b2b1-4b01-98c5-359f8b040049",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": -21.309143,
+          "y": 6.354783,
+          "scaleX": 1.25,
+          "scaleY": 1.25,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 40.0,
+          "originY": 30.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.8117647,
+            "g": 0.8117647,
+            "b": 0.8117647,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bg_1_1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 80.0,
+          "height": 60.0,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "1cb45d3f-2a13-4f16-b8dd-5594857ff7b8",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": -1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": -30.9996,
+          "y": -6.8503,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "f760cf42-7a9d-423c-bee2-f5766db24c50",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "ground",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": -31.053421,
+              "y": -0.97168446,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 173.64291,
+              "y": -0.97168565,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 173.802,
+              "y": 2.0525947,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": -30.9996,
+              "y": 2.4297001,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": -30.9996,
+                "y": 2.4297001
+              },
+              {
+                "x": -31.053421,
+                "y": -0.97168446
+              },
+              {
+                "x": 173.64291,
+                "y": -0.97168565
+              },
+              {
+                "x": 173.802,
+                "y": 2.0525947
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 4.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": true,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": -18.202162,
+          "y": -6.8503118,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "979f9cfd-d589-41b9-9541-14bac44437bf",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": -5.4047213,
+          "y": -6.850315,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "9c42e3ae-82fd-47db-a065-095eb9913c7a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 78.62176,
+          "y": 6.3762827,
+          "scaleX": 1.25,
+          "scaleY": 1.25,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 40.0,
+          "originY": 30.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.8117647,
+            "g": 0.8117647,
+            "b": 0.8117647,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bg_1_1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 80.0,
+          "height": 60.0,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "9002d18e-7b38-4b9d-8a34-5f22ca02aa1d",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": -1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 7.8880205,
+          "y": -4.529298,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 7.15,
+          "originY": 15.25,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.85882354,
+            "g": 0.85882354,
+            "b": 0.85882354,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/tree30.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 14.3,
+          "height": 30.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "3f557dd2-cf03-47a4-8d3c-766262b173d6",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 74.8926,
+          "y": -0.8329,
+          "scaleX": 0.8,
+          "scaleY": 0.8,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 7.15,
+          "originY": 15.25,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.85882354,
+            "g": 0.85882354,
+            "b": 0.85882354,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/tree30.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 14.3,
+          "height": 30.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "4b2fd62f-c814-473a-85a8-3ffc7acf2f18",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": -8.836584,
+          "y": 0.76195335,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "f7784468-6e8c-4788-8dfa-20954074c895",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 3.3309,
+          "y": 1.5381813,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "633031d0-3305-4981-bf14-0d4c5f047984",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": -20.894989,
+          "y": 1.7015743,
+          "scaleX": 0.75,
+          "scaleY": 0.75,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.9,
+          "originY": 1.75,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/bgElems/grass3.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 3.8,
+          "height": 3.5,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "1f2582b9-dc03-4ba7-8c91-9adbe3284d76",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 7.3116775,
+          "y": -6.8503113,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "0a3ac5e8-0bfa-4897-8608-5797b9574c2a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 20.109125,
+          "y": -6.850317,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "fef0c916-a911-4000-991b-0b39af8be879",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 32.90657,
+          "y": -6.850315,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "1e22efb3-f1ba-4282-b82b-801894dc43b3",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 45.70403,
+          "y": -6.850315,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "b76cd0c6-2644-4803-ad58-749c19f93b1c",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 58.501457,
+          "y": -6.8503113,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "2cc08c9e-1710-4bee-be15-a77e33722cdd",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 71.29892,
+          "y": -6.8503094,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "3b49574d-5303-4721-b975-f8387c888ecb",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 96.89382,
+          "y": -6.850315,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "faa961fe-e1f5-4c09-9863-2f3aa5cfd7cc",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 84.09638,
+          "y": -6.85031,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.72156864,
+            "g": 0.72156864,
+            "b": 0.72156864,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf_mid.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "913f9de3-0d7c-410d-84f9-a3b720e20c39",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 44.1938,
+          "y": -3.762,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 12.8,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "regionName": "stand",
+            "relativePath": "atlas/player.atlas",
+            "@class": "AtlasRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 25.6,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "playMode": "LOOP",
+          "frameDuration": 0.09,
+          "playing": true,
+          "animationName": "walk",
+          "@class": "com.kotcrab.vis.runtime.component.VisSpriteAnimation"
+        },
+        {
+          "layerId": 2,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "816ec3a5-48a9-45c4-98b0-bc0b553c2191",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "player",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 48.03921,
+              "y": 7.009431,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 48.606945,
+              "y": 5.5642967,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 47.832764,
+              "y": 4.2739973,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 48.606945,
+              "y": 2.674025,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 52.064945,
+              "y": 2.674025,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 52.37462,
+              "y": 3.7062647,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 53.200413,
+              "y": 4.2223845,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 52.839127,
+              "y": 5.6675205,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 53.355247,
+              "y": 7.577165,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 52.477844,
+              "y": 9.435194,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 50.516586,
+              "y": 10.10615,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 48.606945,
+              "y": 9.177135,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 48.606945,
+                "y": 9.177135
+              },
+              {
+                "x": 48.03921,
+                "y": 7.009431
+              },
+              {
+                "x": 52.839127,
+                "y": 5.6675205
+              },
+              {
+                "x": 53.355247,
+                "y": 7.577165
+              },
+              {
+                "x": 52.477844,
+                "y": 9.435194
+              },
+              {
+                "x": 50.516586,
+                "y": 10.10615
+              }
+            ],
+            [
+              {
+                "x": 52.839127,
+                "y": 5.6675205
+              },
+              {
+                "x": 48.03921,
+                "y": 7.009431
+              },
+              {
+                "x": 52.37462,
+                "y": 3.7062647
+              },
+              {
+                "x": 53.200413,
+                "y": 4.2223845
+              }
+            ],
+            [
+              {
+                "x": 52.37462,
+                "y": 3.7062647
+              },
+              {
+                "x": 48.03921,
+                "y": 7.009431
+              },
+              {
+                "x": 48.606945,
+                "y": 5.5642967
+              },
+              {
+                "x": 52.064945,
+                "y": 2.674025
+              }
+            ],
+            [
+              {
+                "x": 48.606945,
+                "y": 2.674025
+              },
+              {
+                "x": 52.064945,
+                "y": 2.674025
+              },
+              {
+                "x": 48.606945,
+                "y": 5.5642967
+              },
+              {
+                "x": 47.832764,
+                "y": 4.2739973
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "DynamicBody",
+          "friction": 4.0,
+          "density": 2.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": true,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": false,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 31.803276,
+          "y": -42.493423,
+          "scaleX": 0.15,
+          "scaleY": 0.15,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Items/gemRed.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "d63df137-ca91-44e2-a2f8-8a39f68af4db",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "tempBullet",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 34.803257,
+              "y": -37.75175,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 39.899048,
+              "y": -39.1439,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 42.919743,
+              "y": -36.018127,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 42.552006,
+              "y": -30.607122,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 36.61568,
+              "y": -33.391426,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 36.61568,
+                "y": -33.391426
+              },
+              {
+                "x": 34.803257,
+                "y": -37.75175
+              },
+              {
+                "x": 39.899048,
+                "y": -39.1439
+              },
+              {
+                "x": 42.919743,
+                "y": -36.018127
+              },
+              {
+                "x": 42.552006,
+                "y": -30.607122
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "DynamicBody",
+          "friction": 0.0,
+          "density": 0.3,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 0.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": true,
+          "fixedRotation": true,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": true,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 73.9018,
+          "y": 8.3152,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.7294118,
+            "g": 0.7294118,
+            "b": 0.7294118,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "4e96960e-af2f-4297-90a8-4e556194c1e4",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "ground",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 73.90643,
+              "y": 14.365087,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 86.70134,
+              "y": 14.365087,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 86.701805,
+              "y": 17.595198,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 73.9018,
+              "y": 17.595198,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 73.9018,
+                "y": 17.595198
+              },
+              {
+                "x": 73.90643,
+                "y": 14.365087
+              },
+              {
+                "x": 86.70134,
+                "y": 14.365087
+              },
+              {
+                "x": 86.701805,
+                "y": 17.595198
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 4.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": false,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 24.904,
+          "y": 8.7248,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.7294118,
+            "g": 0.7294118,
+            "b": 0.7294118,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "202858e5-6435-49c3-b79f-e8d20d7ee500",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "ground",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 24.90863,
+              "y": 14.774687,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 37.703537,
+              "y": 14.774687,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 37.70401,
+              "y": 18.004799,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 24.904,
+              "y": 18.004799,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 24.904,
+                "y": 18.004799
+              },
+              {
+                "x": 24.90863,
+                "y": 14.774687
+              },
+              {
+                "x": 37.703537,
+                "y": 14.774687
+              },
+              {
+                "x": 37.70401,
+                "y": 18.004799
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 4.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": false,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 50.6581,
+          "y": 17.502,
+          "scaleX": 1.0,
+          "scaleY": 0.45,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 6.4,
+          "originY": 6.4,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.7294118,
+            "g": 0.7294118,
+            "b": 0.7294118,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/Ground/Grass/grassHalf.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 12.8,
+          "height": 12.8,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "4c7b4628-ce6c-4e30-b8fb-b5fa5a5436e8",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "ground",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 50.66273,
+              "y": 23.551891,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 63.457645,
+              "y": 23.551891,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 63.45812,
+              "y": 26.782001,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 50.6581,
+              "y": 26.782001,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 50.6581,
+                "y": 26.782001
+              },
+              {
+                "x": 50.66273,
+                "y": 23.551891
+              },
+              {
+                "x": 63.457645,
+                "y": 23.551891
+              },
+              {
+                "x": 63.45812,
+                "y": 26.782001
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 4.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": false,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    }
+  ]
+}
