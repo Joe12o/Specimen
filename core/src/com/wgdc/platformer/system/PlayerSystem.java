@@ -28,9 +28,6 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
     private GameManager gameManager;
     private CameraManager camManager;
 
-    private Entity player;
-    private VisSprite sprite;
-    private VisSpriteAnimation animation;
     private PhysicsBody body;
     private Transform transform;
     private JumpState jumpState;
@@ -42,13 +39,12 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
 
     @Override
     public void afterSceneInit() {
-        player = idManager.get("player");
+        Entity player = idManager.get("player");
         player.edit().add(jumpState = new JumpState())
                 .add(new Light(40, Color.YELLOW, 15f, 5f, 10f))
                 .add(new Health(20))
-                .add(new AnimationState()).add(new Facing(Facing.Direction.RIGHT));
-        sprite = spriteCm.get(player);
-        animation = animationCm.get(player);
+                .add(new AnimationState()).add(new Facing(Facing.Direction.RIGHT))
+                .add(new AutoDirection());
         transform = transformCm.get(player);
         body = physicsCm.get(player);
         health = player.getComponent(Health.class);
@@ -92,7 +88,6 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
                 if(body.body.getLinearVelocity().x > -WALK_SPEED) {
                     body.body.applyLinearImpulse(-1000f, 0f, 0f, 0f, true);
                 }
-                facing.direction = Facing.Direction.LEFT;
                 animState.setState(AnimationState.State.WALKING);
             }
 
@@ -100,7 +95,6 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
                 if(body.body.getLinearVelocity().x < WALK_SPEED) {
                     body.body.applyLinearImpulse(1000f, 0f, 0f, 0f, true);
                 }
-                facing.direction = Facing.Direction.RIGHT;
                 animState.setState(AnimationState.State.WALKING);
             }
 
@@ -134,7 +128,7 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
             }
         }
 
-        if(Math.abs(body.body.getLinearVelocity().x) < 0.1f && !jumpState.jumping && !animation.getAnimationName().equals("idle")) {
+        if(Math.abs(body.body.getLinearVelocity().x) < 0.1f && !jumpState.jumping) {
             animState.setState(AnimationState.State.IDLE);
         }
     }

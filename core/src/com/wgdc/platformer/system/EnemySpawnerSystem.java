@@ -9,12 +9,14 @@ import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.system.VisIDManager;
 import com.kotcrab.vis.runtime.system.physics.PhysicsSystem;
 import com.kotcrab.vis.runtime.util.AfterSceneInit;
+import com.wgdc.platformer.component.AutoDirection;
+import com.wgdc.platformer.component.Facing;
 import com.wgdc.platformer.component.ShooterAi;
 
 public class EnemySpawnerSystem extends BaseSystem implements AfterSceneInit {
 
     private VisIDManager idManager;
-    public boolean spawn = true;
+    public boolean spawn = false;
     public VisSprite sprite;
 
     @Override
@@ -30,7 +32,9 @@ public class EnemySpawnerSystem extends BaseSystem implements AfterSceneInit {
                     .add(new Layer(1))
                     .add(new Transform(70f, 20f, 0.5f, 0.5f, 0f))
                     .add(sprite)
-                    .add(new Origin(-6, -5)).getEntity();
+                    .add(new Origin(-6, -5))
+                    .add(new Facing(Facing.Direction.RIGHT))
+                    .add(new AutoDirection()).getEntity();
 
             World physWorld = world.getSystem(PhysicsSystem.class).getPhysicsWorld();
             spawn = false;
