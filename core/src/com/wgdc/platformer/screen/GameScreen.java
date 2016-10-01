@@ -64,14 +64,22 @@ public class GameScreen extends ScreenAdapter {
             public BaseSystem create(EntityEngineConfiguration config, RuntimeContext context, SceneData data) {
                 return shooterAiSystem;
             }
-        }, SceneConfig.Priority.LOWEST); // TODO: set the width and height of the level from here
+        }, SceneConfig.Priority.LOW); // TODO: set the width and height of the level from here
+
+        final LightRenderSystem lightRenderSystem = new LightRenderSystem();
+        param.config.addSystem(new SystemProvider() {
+            @Override
+            public BaseSystem create(EntityEngineConfiguration config, RuntimeContext context, SceneData data) {
+                return lightRenderSystem;
+            }
+        }, SceneConfig.Priority.LOW);
         param.config.addSystem(PlayerSystem.class);
         param.config.addSystem(BulletSystem.class);
         param.config.addSystem(LifetimeSystem.class);
         param.config.addSystem(EnemySpawnerSystem.class);
         param.config.addSystem(AnimationSystem.class, SceneConfig.Priority.HIGH);
-        param.config.addSystem(DirectedSpriteSystem.class, SceneConfig.Priority.LOWEST);
-        param.config.addSystem(DamageSystem.class, SceneConfig.Priority.LOWEST);
+        param.config.addSystem(DirectedSpriteSystem.class, SceneConfig.Priority.LOW);
+        param.config.addSystem(DamageSystem.class, SceneConfig.Priority.LOW);
         param.config.addSystem(JumpStateSystem.class);
         param.config.addSystem(DeathSystem.class);
         param.config.addSystem(BodyCleanupSystem.class);
@@ -124,6 +132,7 @@ public class GameScreen extends ScreenAdapter {
         rayHandler = new RayHandler(world);
         rayHandler.setAmbientLight(0.2f, 0.2f, 0.2f, 0.1f);
         lightSystem.setRayHandler(rayHandler);
+        lightRenderSystem.setRayHandler(rayHandler);
 
         renderer = new ShapeRenderer();
         playerBody = shooterAiSystem.player.getComponent(PhysicsBody.class).body;
@@ -136,8 +145,6 @@ public class GameScreen extends ScreenAdapter {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         scene.render();
-        rayHandler.setCombinedMatrix(camera);
-        rayHandler.updateAndRender();
 
         renderer.setProjectionMatrix(camera.combined);
         renderer.begin(ShapeRenderer.ShapeType.Filled);
@@ -150,12 +157,10 @@ public class GameScreen extends ScreenAdapter {
 
     @Override
     public void pause() {
-
     }
 
     @Override
     public void resume() {
-
     }
 
     @Override

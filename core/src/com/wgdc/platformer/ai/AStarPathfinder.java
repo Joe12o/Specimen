@@ -78,7 +78,7 @@ public class AStarPathfinder {
                 for(int j = node.y; j >= 0; j--) {
                     other = map.getNodeAt(node.x, node.y - j);
                     if(other.ground) {
-                        //node.getConnections().add(new DefaultConnection<PathNode>(node, other));
+                        node.getConnections().add(new DefaultConnection<PathNode>(node, other));
                         break;
                     }
                 }
