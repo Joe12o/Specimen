@@ -83,6 +83,7 @@ public class GameScreen extends ScreenAdapter {
         param.config.addSystem(JumpStateSystem.class);
         param.config.addSystem(DeathSystem.class);
         param.config.addSystem(BodyCleanupSystem.class);
+        param.config.addSystem(HealthBarSystem.class, SceneConfig.Priority.LOWEST);
         param.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
         Assets.instance().unload("scene/level.scene");
         scene = Assets.instance().loadScene("scene/level.scene", param);

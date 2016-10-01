@@ -33,7 +33,6 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
     private JumpState jumpState;
     private AnimationState animState;
     private Health health;
-    private Facing facing;
     private int shotCooldown = 0;
     public static VisSprite bulletSprite;
 
@@ -49,7 +48,6 @@ public class PlayerSystem extends BaseSystem implements AfterSceneInit {
         body = physicsCm.get(player);
         health = player.getComponent(Health.class);
         animState = player.getComponent(AnimationState.class);
-        facing = player.getComponent(Facing.class);
 
         EdgeShape shape = new EdgeShape();
         shape.set(3.5f, 14f, 3.5f, 6.45f);

@@ -14,7 +14,7 @@ public class Health extends Component {
 
     public void damage(int amount) {
         hurt = true;
-        current -= amount;
+        current = Math.max(current - amount, 0);
     }
 
     public int getCurrent() {
